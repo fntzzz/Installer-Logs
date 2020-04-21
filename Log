@@ -1,0 +1,1075 @@
+Apr 21 14:42:08 localhost opendirectoryd[213]: opendirectoryd (build 692.100) launched - installer mode
+Apr 21 14:42:08 localhost opendirectoryd[213]: [default] Failed to open file <private> [2: No such file or directory]
+Apr 21 14:42:09 localhost opendirectoryd[213]: [default] Initialize trigger support
+Apr 21 14:42:09 localhost opendirectoryd[213]: [default] Failed to open file <private> [2: No such file or directory]
+Apr 21 14:42:09 localhost opendirectoryd[213]: [default] Failed to open file <private> [2: No such file or directory]
+Apr 21 14:42:09 localhost opendirectoryd[213]: [default] created endpoint for mach service 'com.apple.private.opendirectoryd.rpc'
+Apr 21 14:42:09 localhost opendirectoryd[213]: [session] Registered RPC over XPC 'reset_cache' for service 'com.apple.private.opendirectoryd.rpc'
+Apr 21 14:42:09 localhost opendirectoryd[213]: [session] Registered RPC over XPC 'reset_online' for service 'com.apple.private.opendirectoryd.rpc'
+Apr 21 14:42:09 localhost opendirectoryd[213]: [session] Registered RPC over XPC 'reset_statistics' for service 'com.apple.private.opendirectoryd.rpc'
+Apr 21 14:42:09 localhost opendirectoryd[213]: [session] Registered RPC over XPC 'show' for service 'com.apple.private.opendirectoryd.rpc'
+Apr 21 14:42:09 localhost opendirectoryd[213]: [session] starting endpoint for service 'com.apple.private.opendirectoryd.rpc'
+Apr 21 14:42:09 localhost opendirectoryd[213]: [session] UID: 0, EUID: 0, GID: 0, EGID: 0, PID: 224, PROC: sandboxd ODNodeCreateWithNameAndOptions request, SessionID: 00000000-0000-0000-0000-000000000000, Name: /Local/Default, Options: 0x0
+Apr 21 14:42:09 localhost opendirectoryd[213]: [session] Setting external work dequeue limit to 256
+Apr 21 14:42:09 localhost opendirectoryd[213]: [session] Setting external work limit to 128
+Apr 21 14:42:09 localhost opendirectoryd[213]: [default] Failed to open file <private> [2: No such file or directory]
+Apr 21 14:42:09 localhost opendirectoryd[213]: [session] Registered node with name '/Configure' as hidden
+Apr 21 14:42:09 localhost opendirectoryd[213]: [session] Trigger - fired node event 'register' for '/Configure'
+Apr 21 14:42:09 localhost opendirectoryd[213]: [session] Trigger - fired node event 'register' for '/Configure'
+Apr 21 14:42:09 localhost opendirectoryd[213]: [session] Trigger - notified opendirectoryd:nodes;register;/Configure
+Apr 21 14:42:09 localhost opendirectoryd[213]: [default] Failed to open file <private> [2: No such file or directory]
+Apr 21 14:42:09 localhost opendirectoryd[213]: [session] Registered node with name '/Local' as hidden
+Apr 21 14:42:09 localhost opendirectoryd[213]: [session] Trigger - fired node event 'register' for '/Local'
+Apr 21 14:42:09 localhost opendirectoryd[213]: [session] Trigger - fired node event 'register' for '/Local'
+Apr 21 14:42:09 localhost opendirectoryd[213]: [session] Trigger - notified opendirectoryd:nodes;register;/Local
+Apr 21 14:42:09 localhost opendirectoryd[213]: [session] Trigger - fired node event 'register' for '/Local'
+Apr 21 14:42:09 localhost opendirectoryd[213]: [session] loading configuration for '/Local' from '/System/Library/OpenDirectory/Configurations/Local.plist'
+Apr 21 14:42:09 localhost opendirectoryd[213]: [default] Loaded bundle at path '/System/Library/OpenDirectory/Modules/PlistFile.bundle'
+Apr 21 14:42:09 localhost opendirectoryd[213]: [session] Trigger - new attribute trigger watching for 'opendirectoryd:records;modify;/Local/Default;dsRecTypeStandard:Config;CIFSServer;dsAttrTypeStandard:XMLPlist'
+Apr 21 14:42:09 localhost opendirectoryd[213]: [default] Failed to open file <private> [2: No such file or directory]
+Apr 21 14:42:09 localhost opendirectoryd[213]: [session] unable to find authentication module 'AppleID'
+Apr 21 14:42:09 localhost opendirectoryd[213]: [session] Registered subnode with name '/Local/Default'
+Apr 21 14:42:09 localhost opendirectoryd[213]: [session] Registering for network changes
+Apr 21 14:42:09 localhost opendirectoryd[213]: [session] Trigger - fired node event 'register' for '/Local/Default'
+Apr 21 14:42:09 localhost opendirectoryd[213]: [session] Trigger - fired node event 'register' for '/Local/Default'
+Apr 21 14:42:09 localhost opendirectoryd[213]: [session] Trigger - notified opendirectoryd:nodes;register;/Local/Default
+Apr 21 14:42:09 localhost opendirectoryd[213]: [session] nodestate - starting check for '/Local/Default'
+Apr 21 14:42:09 localhost opendirectoryd[213]: [session] failed to open local node for internal record copy
+Apr 21 14:42:09 localhost opendirectoryd[213]: [session] service discovery skipped for node '/Local/Default'
+Apr 21 14:42:09 localhost opendirectoryd[213]: [session] Node is 10.7 or later
+Apr 21 14:42:09 localhost opendirectoryd[213]: [session] initiating reconnect for 923DD4BD-2A61-45D7-B4A9-01CB5918C78A
+Apr 21 14:42:09 localhost opendirectoryd[213]: [session] nodestate - flagging '/Local/Default' online
+Apr 21 14:42:09 localhost opendirectoryd[213]: [session] node assigned UUID - D5C90BF0-EF3D-430E-8913-80AC83221487
+Apr 21 14:42:09 localhost opendirectoryd[213]: [session] Internal: ODNodeCreateWithNameAndOptions request, SessionID: 00000000-0000-0000-0000-000000000000, Name: /Local/Default, Options: 0x0
+Apr 21 14:42:09 localhost opendirectoryd[213]: [session] node assigned UUID - 1B4513BD-FBCD-4382-9AE1-D841C09362C6
+Apr 21 14:42:09 localhost opendirectoryd[213]: [session] Trigger - notified opendirectoryd:nodes;online;/Local/Default
+Apr 21 14:42:09 localhost opendirectoryd[213]: [session] ODNodeCreateWithNameAndOptions completed
+Apr 21 14:42:09 localhost opendirectoryd[213]: [session] ODNodeCreateWithNameAndOptions completed
+Apr 21 14:42:09 localhost opendirectoryd[213]: [session] Trigger - fired node event 'register' for '/Local/Default'
+Apr 21 14:42:09 localhost opendirectoryd[213]: [session] UID: 0, EUID: 0, GID: 0, EGID: 0, PID: 224, PROC: sandboxd ODQueryCreateWithNode request, NodeID: D5C90BF0-EF3D-430E-8913-80AC83221487, RecordType(s): dsRecTypeStandard:Users, Attribute: dsAttrTypeStandard:UniqueID, MatchType: GreaterThan, Equality: Number, Value(s): 500, Requested Attributes: dsAttrTypeStandard:NFSHomeDirectory,dsAttrTypeStandard:GeneratedUID,dsAttrTypeStandard:RecordName,dsAttrTypeStandard:UniqueID,dsAttrTypeStandard:AppleMetaRecordName,dsAttrTypeStandard:RecordType,dsAttrTypeStandard:AppleMetaNodeLocation, Max Results: 2147483647
+Apr 21 14:42:09 localhost opendirectoryd[213]: [session] queuing request to connection - 923DD4BD-2A61-45D7-B4A9-01CB5918C78A - CFBundle 0x7f816f604080 </System/Library/OpenDirectory/Modules/PlistFile.bundle> (bundle, loaded)
+Apr 21 14:42:11 localhost Installer Progress[208]: Progress UI App Starting
+Apr 21 14:42:11 localhost opendirectoryd[213]: [session] ODQueryCreateWithNode completed
+Apr 21 14:42:16 localhost powerd[200]: powerd process is started
+Apr 21 14:42:16 localhost powerd[200]: Assertion Created. Type:ExternalMedia Name:'com.apple.powermanagement.externalmediamounted' Id:0x800008000 Process:powerd [System: No Assertions]
+Apr 21 14:42:16 localhost powerd[200]: Assertion Created. Type:PreventUserIdleDisplaySleep Name:'Running FSCK' Id:0x500008001 Process:fsck_apfs [System: PrevDisp kDisp]
+Apr 21 14:42:16 localhost opendirectoryd[213]: [session] UID: 0, EUID: 0, GID: 0, EGID: 0, PID: 224, PROC: sandboxd ODNodeRelease request, NodeID: D5C90BF0-EF3D-430E-8913-80AC83221487
+Apr 21 14:42:16 localhost opendirectoryd[213]: [session] ODNodeRelease completed
+Apr 21 14:42:17 localhost Unknown[590]: kern.boottime: { sec = 1587480114, usec = 0 } Tue Apr 21 14:41:54 2020
+Apr 21 14:42:17 localhost opendirectoryd[213]: [session] Received a network change notification
+Apr 21 14:42:17 localhost powerd[200]: Assertion Created. Type:InternalPreventDisplaySleep Name:'com.apple.powermanagement.delayDisplayOff' Id:0x1000008002 Process:powerd [System: PrevDisp IntPrevDisp kDisp]
+Apr 21 14:42:17 localhost powerd[200]: Assertion Released. Type:PreventUserIdleDisplaySleep Name:'Running FSCK' Id:0x500008001 Process:fsck_apfs [System: IntPrevDisp kDisp]
+Apr 21 14:42:17 localhost powerd[200]: Assertion Created. Type:PreventUserIdleDisplaySleep Name:'Running FSCK' Id:0x500008003 Process:fsck_apfs [System: PrevDisp IntPrevDisp kDisp]
+Apr 21 14:42:17 localhost powerd[200]: Assertion Released. Type:PreventUserIdleDisplaySleep Name:'Running FSCK' Id:0x500008003 Process:fsck_apfs [System: IntPrevDisp kDisp]
+Apr 21 14:42:17 localhost opendirectoryd[213]: [session] UID: 0, EUID: 0, GID: 0, EGID: 0, PID: 214, PROC: apsd ODNodeCreateWithNameAndOptions request, SessionID: 00000000-0000-0000-0000-000000000000, Name: /Search, Options: 0x0
+Apr 21 14:42:17 localhost opendirectoryd[213]: [session] ODNodeCreateWithNameAndOptions failed with result 2000
+Apr 21 14:42:17 localhost powerd[200]: Assertion Created. Type:PreventUserIdleDisplaySleep Name:'Running FSCK' Id:0x500008004 Process:fsck_apfs [System: PrevDisp IntPrevDisp kDisp]
+Apr 21 14:42:17 localhost powerd[200]: Assertion Released. Type:PreventUserIdleDisplaySleep Name:'Running FSCK' Id:0x500008004 Process:fsck_apfs [System: BGTask IntPrevDisp kDisp]
+Apr 21 14:42:17 localhost powerd[200]: Assertion Created. Type:PreventUserIdleDisplaySleep Name:'Running FSCK' Id:0x500008007 Process:fsck_apfs [System: PrevDisp BGTask IntPrevDisp kDisp]
+Apr 21 14:42:17 localhost powerd[200]: Assertion Released. Type:PreventUserIdleDisplaySleep Name:'Running FSCK' Id:0x500008007 Process:fsck_apfs [System: BGTask IntPrevDisp kDisp]
+Apr 21 14:42:18 localhost Unknown[616]: Launching the Language Chooser for an OS Install
+Apr 21 14:42:18 localhost bspowerassertiontool[610]: Tool exited successfully (0).
+Apr 21 14:42:18 localhost launchprogresswindow[613]: ISAP: Show progress UI called
+Apr 21 14:42:21 Mac-Pro opendirectoryd[213]: [session] Processing a network change notification
+Apr 21 14:42:35 Mac-Pro opendirectoryd[213]: [session] PID: 214, Client: 'apsd', exited with 0 session(s), 0 node(s) and 0 active request(s)
+Apr 21 14:42:37 Mac-Pro powerd[200]: Display is turned on
+Apr 21 14:42:38 Mac-Pro opendirectoryd[213]: [session] Received a network change notification
+Apr 21 14:42:38 Mac-Pro opendirectoryd[213]: [session] Received a network change notification
+Apr 21 14:42:41 Mac-Pro opendirectoryd[213]: [session] Received a network change notification
+Apr 21 14:42:42 Mac-Pro opendirectoryd[213]: [session] Received a network change notification
+Apr 21 14:42:43 Mac-Pro opendirectoryd[213]: [session] UID: 0, EUID: 0, GID: 0, EGID: 0, PID: 625, PROC: apsd ODNodeCreateWithNameAndOptions request, SessionID: 00000000-0000-0000-0000-000000000000, Name: /Search, Options: 0x0
+Apr 21 14:42:43 Mac-Pro opendirectoryd[213]: [session] ODNodeCreateWithNameAndOptions failed with result 2000
+Apr 21 14:42:44 Mac-Pro Installer Progress[208]: Connected processes {
+	    "BB6D11B3-7051-43E0-B7C5-54B6C9CE50DA" =     {
+	        "Phase Name" = "Launch Progress Window";
+	        "Process ID" = 613;
+	        UUID = "BB6D11B3-7051-43E0-B7C5-54B6C9CE50DA";
+	    };
+	}
+Apr 21 14:42:44 Mac-Pro Installer Progress[208]: Connected processes {
+	    "BB6D11B3-7051-43E0-B7C5-54B6C9CE50DA" =     {
+	        CompletionHandlerKey = "<__NSMallocBlock__: 0x6000011180f0>";
+	        "Phase Name" = "Launch Progress Window";
+	        "Process ID" = 613;
+	        UUID = "BB6D11B3-7051-43E0-B7C5-54B6C9CE50DA";
+	    };
+	}
+Apr 21 14:42:44 Mac-Pro Installer Progress[208]: IASGetCurrentInstallPhaseList: phases = (
+	        {
+	        ConclusionDelay = 0;
+	        InstallPhase = "Boot 1";
+	        InstallPhaseActualPercentageKey = 5;
+	        InstallPhasePercentageKey = 5;
+	    },
+	        {
+	        ConclusionDelay = 0;
+	        InstallPhase = "Language Chooser";
+	        InstallPhaseActualPercentageKey = 5;
+	        InstallPhasePercentageKey = 5;
+	    },
+	        {
+	        ConclusionDelay = 0;
+	        InstallPhase = "OS Installer";
+	        InstallPhaseActualPercentageKey = 5;
+	        InstallPhasePercentageKey = 5;
+	    },
+	        {
+	        ConclusionDelay = 0;
+	        InstallPhase = "EFI Firmware Update";
+	        InstallPhaseActualPercentageKey = 5;
+	        InstallPhasePercentageKey = 5;
+	    },
+	        {
+	        ConclusionDelay = 0;
+	        InstallPhase = "Boot 2";
+	        InstallPhaseActualPercentageKey = 5;
+	        InstallPhasePercentageKey = 5;
+	    },
+	        {
+	        ConclusionDelay = 0;
+	        InstallPhase = "Language Chooser 2";
+	        InstallPhaseActualPercentageKey = 5;
+	        InstallPhasePercentageKey = 5;
+	    },
+	        {
+	        ConclusionDelay = "-1";
+	        InstallPhase = "OS Installer 2";
+	        InstallPhaseActualPercentageKey = 70;
+	        InstallPhasePercentageKey = 70;
+	    }
+	)
+Apr 21 14:42:44 Mac-Pro Installer Progress[208]: IASGetCurrentInstallPhase: Current phase name is "Boot 1"
+Apr 21 14:42:44 Mac-Pro Installer Progress[208]: currentPhase = "<IASPPhase: 0x60000321db20: 'Boot 1', percentage 5.0, delay 0>", phases = (
+	    "<IASPPhase: 0x60000321db20: 'Boot 1', percentage 5.0, delay 0>",
+	    "<IASPPhase: 0x60000321db40: 'Language Chooser', percentage 5.0, delay 0>",
+	    "<IASPPhase: 0x60000321db60: 'OS Installer', percentage 5.0, delay 0>",
+	    "<IASPPhase: 0x60000321dba0: 'EFI Firmware Update', percentage 5.0, delay 0>",
+	    "<IASPPhase: 0x60000321dbc0: 'Boot 2', percentage 5.0, delay 0>",
+	    "<IASPPhase: 0x60000321db80: 'Language Chooser 2', percentage 5.0, delay 0>",
+	    "<IASPPhase: 0x60000321dbe0: 'OS Installer 2', percentage 70.0, delay -1>"
+	)
+Apr 21 14:42:44 Mac-Pro Installer Progress[208]: IASGetCurrentInstallPhaseList: phases = (
+	        {
+	        ConclusionDelay = 0;
+	        InstallPhase = "Boot 1";
+	        InstallPhaseActualPercentageKey = 5;
+	        InstallPhasePercentageKey = 5;
+	    },
+	        {
+	        ConclusionDelay = 0;
+	        InstallPhase = "Language Chooser";
+	        InstallPhaseActualPercentageKey = 5;
+	        InstallPhasePercentageKey = 5;
+	    },
+	        {
+	        ConclusionDelay = 0;
+	        InstallPhase = "OS Installer";
+	        InstallPhaseActualPercentageKey = 5;
+	        InstallPhasePercentageKey = 5;
+	    },
+	        {
+	        ConclusionDelay = 0;
+	        InstallPhase = "EFI Firmware Update";
+	        InstallPhaseActualPercentageKey = 5;
+	        InstallPhasePercentageKey = 5;
+	    },
+	        {
+	        ConclusionDelay = 0;
+	        InstallPhase = "Boot 2";
+	        InstallPhaseActualPercentageKey = 5;
+	        InstallPhasePercentageKey = 5;
+	    },
+	        {
+	        ConclusionDelay = 0;
+	        InstallPhase = "Language Chooser 2";
+	        InstallPhaseActualPercentageKey = 5;
+	        InstallPhasePercentageKey = 5;
+	    },
+	        {
+	        ConclusionDelay = "-1";
+	        InstallPhase = "OS Installer 2";
+	        InstallPhaseActualPercentageKey = 70;
+	        InstallPhasePercentageKey = 70;
+	    }
+	)
+Apr 21 14:42:44 Mac-Pro Installer Progress[208]: IASGetCurrentInstallPhase: Current phase name is "Boot 1"
+Apr 21 14:42:44 Mac-Pro Installer Progress[208]: currentPhase = "<IASPPhase: 0x600003234900: 'Boot 1', percentage 5.0, delay 0>", phases = (
+	    "<IASPPhase: 0x600003234900: 'Boot 1', percentage 5.0, delay 0>",
+	    "<IASPPhase: 0x600003234920: 'Language Chooser', percentage 5.0, delay 0>",
+	    "<IASPPhase: 0x600003234940: 'OS Installer', percentage 5.0, delay 0>",
+	    "<IASPPhase: 0x600003234980: 'EFI Firmware Update', percentage 5.0, delay 0>",
+	    "<IASPPhase: 0x6000032349a0: 'Boot 2', percentage 5.0, delay 0>",
+	    "<IASPPhase: 0x600003234960: 'Language Chooser 2', percentage 5.0, delay 0>",
+	    "<IASPPhase: 0x6000032349c0: 'OS Installer 2', percentage 70.0, delay -1>"
+	)
+Apr 21 14:42:44 Mac-Pro Installer Progress[208]: Use NVRAM prev-lang:kbd value (30788) as default ASCII input source: Polish Pro
+Apr 21 14:42:44 Mac-Pro Installer Progress[208]: Use NVRAM prev-lang:kbd value (30788) as default ASCII input source: Polish Pro
+Apr 21 14:42:44 Mac-Pro opendirectoryd[213]: [session] Received a network change notification
+Apr 21 14:42:44 Mac-Pro opendirectoryd[213]: [session] Received a network change notification
+Apr 21 14:42:44 Mac-Pro Installer Progress[208]: Progress app is loading…
+Apr 21 14:42:44 Mac-Pro Installer Progress[208]: Progress app is running…
+Apr 21 14:42:44 Mac-Pro Installer Progress[208]: Showing Progress UI
+Apr 21 14:42:44 Mac-Pro imklaunchagent[204]: Use NVRAM prev-lang:kbd value (30788) as default ASCII input source: Polish Pro
+Apr 21 14:42:44 Mac-Pro Installer Progress[208]: There are 0 window(s) and 1 display(s), 1 window(s) will be added
+Apr 21 14:42:44 Mac-Pro Installer Progress[208]: This machine is not in the Light Gray Background Machines List, setting to Black
+Apr 21 14:42:45 Mac-Pro Installer Progress[208]: Created a window at {{0, 0}, {1920, 1080}}
+Apr 21 12:42:52 Mac-Pro Installer Progress[208]: Status is ""
+Apr 21 12:42:52 Mac-Pro Installer Progress[208]: Alternate status is ""
+Apr 21 12:42:52 Mac-Pro Language Chooser[617]: LCA: skipping WiFi scan because there default WiFi interface name is nil.
+Apr 21 12:42:52 Mac-Pro Installer Progress[208]: Setting window alpha values to 0.0
+Apr 21 12:42:52 Mac-Pro Installer Progress[208]: Ordering windows front
+Apr 21 12:42:52 Mac-Pro Installer Progress[208]: Ordering windows front
+Apr 21 12:42:52 Mac-Pro Installer Progress[208]: Setting window alpha values to 1.0
+Apr 21 12:42:53 Mac-Pro Language Chooser[617]: Using progress phase: Language Chooser
+Apr 21 12:42:53 Mac-Pro Installer Progress[208]: Connected processes {
+	    "BB6D11B3-7051-43E0-B7C5-54B6C9CE50DA" =     {
+	        CompletionHandlerKey = "<__NSMallocBlock__: 0x6000011180f0>";
+	        "Phase Name" = "Launch Progress Window";
+	        "Process ID" = 613;
+	        UUID = "BB6D11B3-7051-43E0-B7C5-54B6C9CE50DA";
+	    };
+	    "C66C86D3-F9B1-4BC9-B04C-19E77BDEB72C" =     {
+	        "Phase Name" = "Language Chooser";
+	        "Process ID" = 617;
+	        UUID = "C66C86D3-F9B1-4BC9-B04C-19E77BDEB72C";
+	    };
+	}
+Apr 21 12:42:53 Mac-Pro Installer Progress[208]: Connected processes {
+	    "BB6D11B3-7051-43E0-B7C5-54B6C9CE50DA" =     {
+	        CompletionHandlerKey = "<__NSMallocBlock__: 0x6000011180f0>";
+	        "Phase Name" = "Launch Progress Window";
+	        "Process ID" = 613;
+	        UUID = "BB6D11B3-7051-43E0-B7C5-54B6C9CE50DA";
+	    };
+	    "C66C86D3-F9B1-4BC9-B04C-19E77BDEB72C" =     {
+	        CompletionHandlerKey = "<__NSMallocBlock__: 0x6000011054a0>";
+	        "Phase Name" = "Language Chooser";
+	        "Process ID" = 617;
+	        UUID = "C66C86D3-F9B1-4BC9-B04C-19E77BDEB72C";
+	    };
+	}
+Apr 21 12:42:53 Mac-Pro Unknown[618]: 2020-04-21 12:42:53.508 Language Chooser[617:2233] NSDisabledCharacterPaletteMenuItem=YES
+Apr 21 12:42:53 Mac-Pro Language Chooser[617]: Use NVRAM prev-lang:kbd value (30788) as default ASCII input source: Polish Pro
+Apr 21 12:42:53 Mac-Pro Unknown[618]: 2020-04-21 12:42:53.514 Language Chooser[617:2233] Use NVRAM prev-lang:kbd value (30788) as default ASCII input source: Polish Pro
+Apr 21 12:42:53 Mac-Pro Language Chooser[617]: Setup: Factory cable attached: 0
+Apr 21 12:42:53 Mac-Pro Unknown[618]: Setting boot completed.
+Apr 21 12:42:53 Mac-Pro Unknown[618]: 2020-04-21 12:42:53.600 Language Chooser[617:2233] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=260 "The file “com.apple.ViewBridge.plist” couldn’t be opened because there is no such file." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x7fc69261c9e0 {Error Domain=NSPOSIXErrorDomain Code=2 "No such file or directory"}}
+Apr 21 12:42:53 Mac-Pro Installer Progress[208]: IASSetCurrentInstallPhase: Current phase name set to "Language Chooser"
+Apr 21 12:42:58 Mac-Pro powerd[200]: Assertion Created. Type:UserIsActive Name:'com.apple.iohideventsystem.queue.tickle serviceID:100000637 name:IOHIDEventDriver product:Wired Gaming Mouse eventType:17' Id:0x900008011 Process:hidd [System: DeclUser IntPrevDisp kDisp]
+Apr 21 12:43:23 Mac-Pro Language Chooser[617]: LCA+BT2: failed to get BT host controller after 30 seconds
+Apr 21 12:43:23 Mac-Pro Language Chooser[617]: LCA+BT2: BT host controller appeared after 30 seconds
+Apr 21 12:43:23 Mac-Pro Language Chooser[617]: System doesn't have bridgeOS and doesn't support TRBX
+Apr 21 12:43:23 Mac-Pro Language Chooser[617]: Use NVRAM prev-lang:kbd value (30788) as default ASCII input source: Polish Pro
+Apr 21 12:43:23 Mac-Pro Unknown[618]: 2020-04-21 12:43:23.700 Language Chooser[617:2233] Use NVRAM prev-lang:kbd value (30788) as default ASCII input source: Polish Pro
+Apr 21 12:43:23 Mac-Pro Unknown[618]: 2020-04-21 12:43:23.710 Language Chooser[617:2233] TISFileInterrogator updateSystemInputSources false but old data invalid: currentCacheHeaderPtr nonNULL? 0, ->cacheFormatVersion 0, ->magicCookie 00000000, inputSourceTableCountSys 0
+Apr 21 12:43:23 Mac-Pro Unknown[618]: Keyboard Layouts: duplicate keyboard layout identifier -17410.
+Apr 21 12:43:23 Mac-Pro Unknown[618]: Keyboard Layouts: keyboard layout identifier -17410 has been replaced with -28673.
+Apr 21 12:43:23 Mac-Pro Unknown[618]: Keyboard Layouts: duplicate keyboard layout identifier -14934.
+Apr 21 12:43:23 Mac-Pro Unknown[618]: Keyboard Layouts: keyboard layout identifier -14934 has been replaced with -28674.
+Apr 21 12:43:23 Mac-Pro Language Chooser[617]: Set keyboard to id: 30788
+Apr 21 12:43:23 Mac-Pro Language Chooser[617]: Found primary language hint "pl"
+Apr 21 12:43:23 Mac-Pro Language Chooser[617]: ISAP: Done with Phase "Language Chooser"
+Apr 21 12:43:23 Mac-Pro Installer Progress[208]: Done with phase = "Language Chooser"
+Apr 21 12:43:23 Mac-Pro Installer Progress[208]: IASSetCurrentInstallPhase: Current phase name set to "OS Installer"
+Apr 21 12:43:23 Mac-Pro Language Chooser[617]: System doesn't have bridgeOS and doesn't support TRBX
+Apr 21 12:43:23 Mac-Pro Language Chooser[617]: Launching the Installer using language code "pl"
+Apr 21 12:43:24 Mac-Pro Unknown[618]: objc[640]: Class ILCConnection is implemented in both /System/Library/PrivateFrameworks/IASUtilities.framework/Versions/A/IASUtilities (0x10c652b88) and /System/Installation/CDIS/macOS Installer.app/Contents/MacOS/macOS Installer (0x10b8da960). One of the two will be used. Which one is undefined.
+Apr 21 12:43:24 Mac-Pro Unknown[618]: objc[640]: Class ILCBaseConnection is implemented in both /System/Library/PrivateFrameworks/IASUtilities.framework/Versions/A/IASUtilities (0x10c652bd8) and /System/Installation/CDIS/macOS Installer.app/Contents/MacOS/macOS Installer (0x10b8da9b0). One of the two will be used. Which one is undefined.
+Apr 21 12:43:25 Mac-Pro Unknown[618]: 2020-04-21 12:43:25.190 macOS Installer[640:2750] NSDisabledCharacterPaletteMenuItem=YES
+Apr 21 12:43:25 Mac-Pro storagekitd[641]: Starting SKDaemon...
+Apr 21 12:43:25 Mac-Pro storagekitd[641]: Client entitled for destructive operations
+Apr 21 12:43:25 Mac-Pro storagekitd[641]: Adding client connection <NSXPCConnection: 0x7fe438d05250> connection on mach service named com.apple.storagekitd from pid 640
+Apr 21 12:43:25 Mac-Pro Language Chooser[617]: System doesn't have bridgeOS and doesn't support TRBX
+Apr 21 12:43:25 Mac-Pro Language Chooser[617]: Not hiding Language Chooser in window counter
+Apr 21 12:43:25 Mac-Pro OSInstaller[640]: Use NVRAM prev-lang:kbd value (30788) as default ASCII input source: Polish Pro
+Apr 21 12:43:25 Mac-Pro Unknown[618]: 2020-04-21 12:43:25.829 macOS Installer[640:2750] Use NVRAM prev-lang:kbd value (30788) as default ASCII input source: Polish Pro
+Apr 21 12:43:25 Mac-Pro Unknown[618]: 2020-04-21 12:43:25.869 macOS Installer[640:2750] unable to obtain configuration from file:///Library/Preferences/com.apple.ViewBridge.plist due to Error Domain=NSCocoaErrorDomain Code=260 "Nie można otworzyć pliku „com.apple.ViewBridge.plist”; nie ma takiego pliku." UserInfo={NSFilePath=/Library/Preferences/com.apple.ViewBridge.plist, NSUnderlyingError=0x7f913655abd0 {Error Domain=NSPOSIXErrorDomain Code=2 "No such file or directory"}}
+Apr 21 12:43:25 Mac-Pro OSInstaller[640]: Use NVRAM prev-lang:kbd value (30788) as default ASCII input source: Polish Pro
+Apr 21 12:43:25 Mac-Pro Unknown[618]: 2020-04-21 12:43:25.969 macOS Installer[640:2750] Use NVRAM prev-lang:kbd value (30788) as default ASCII input source: Polish Pro
+Apr 21 12:43:25 Mac-Pro Unknown[618]: 2020-04-21 12:43:25.975 macOS Installer[640:2750] TISFileInterrogator updateSystemInputSources false but old data invalid: currentCacheHeaderPtr nonNULL? 0, ->cacheFormatVersion 0, ->magicCookie 00000000, inputSourceTableCountSys 0
+Apr 21 12:43:25 Mac-Pro Unknown[618]: Keyboard Layouts: duplicate keyboard layout identifier -17410.
+Apr 21 12:43:25 Mac-Pro Unknown[618]: Keyboard Layouts: keyboard layout identifier -17410 has been replaced with -28673.
+Apr 21 12:43:26 Mac-Pro Unknown[618]: Keyboard Layouts: duplicate keyboard layout identifier -14934.
+Apr 21 12:43:26 Mac-Pro Unknown[618]: Keyboard Layouts: keyboard layout identifier -14934 has been replaced with -28674.
+Apr 21 12:43:26 Mac-Pro OSInstaller[640]: Use NVRAM prev-lang:kbd value (30788) as default ASCII input source: Polish Pro
+Apr 21 12:43:26 Mac-Pro Unknown[618]: 2020-04-21 12:43:26.064 macOS Installer[640:2750] Use NVRAM prev-lang:kbd value (30788) as default ASCII input source: Polish Pro
+Apr 21 12:43:28 Mac-Pro OSInstaller[640]: Connected to daemon. Language set to: pl
+Apr 21 12:43:28 Mac-Pro OSInstaller[640]: Connected to daemon. Language set to: pl
+Apr 21 12:43:28 Mac-Pro Unknown[618]: 2020-04-21 12:43:28.401 macOS Installer[640:2758] Connected to daemon. Language set to: pl
+Apr 21 12:43:28 Mac-Pro Unknown[618]: 2020-04-21 12:43:28.401 macOS Installer[640:2758] Connected to daemon. Language set to: pl
+Apr 21 12:43:28 Mac-Pro OSInstaller[640]: Finding disk for productURL: /macOS Install Data
+Apr 21 12:43:28 Mac-Pro OSInstaller[640]: Using product <OSProduct: 0x7f9130111c90> at distance 5
+Apr 21 12:43:28 Mac-Pro OSInstaller[640]: Hardware: MacPro7,1 @ 4.20 GHz (x 12), 32768 MB RAM
+Apr 21 12:43:28 Mac-Pro OSInstaller[640]: Running OS Build: Mac OS X 10.15.4 (19E287)
+Apr 21 12:43:28 Mac-Pro OSInstaller[640]: Env: DYLD_NO_FIX_PREBINDING=1
+Apr 21 12:43:28 Mac-Pro OSInstaller[640]: Env: PATH=/usr/bin:/bin:/usr/sbin:/sbin
+Apr 21 12:43:28 Mac-Pro OSInstaller[640]: Env: PWD=/
+Apr 21 12:43:28 Mac-Pro OSInstaller[640]: Env: XPC_FLAGS=0x0
+Apr 21 12:43:28 Mac-Pro OSInstaller[640]: Env: XPC_SERVICE_NAME=0
+Apr 21 12:43:28 Mac-Pro OSInstaller[640]: Env: SHLVL=1
+Apr 21 12:43:28 Mac-Pro OSInstaller[640]: Env: __OSINSTALL_ENVIRONMENT=1
+Apr 21 12:43:28 Mac-Pro OSInstaller[640]: Env: CI_DEFAULT_OPENCL_USAGE=0
+Apr 21 12:43:28 Mac-Pro OSInstaller[640]: Env: OS_INSTALL=1
+Apr 21 12:43:28 Mac-Pro OSInstaller[640]: Env: CA_ASSERT_MAIN_THREAD_TRANSACTIONS=1
+Apr 21 12:43:28 Mac-Pro OSInstaller[640]: Env: _=/System/Library/CoreServices/Language Chooser.app/Contents/MacOS/Language Chooser
+Apr 21 12:43:28 Mac-Pro OSInstaller[640]: Creating connection
+Apr 21 12:43:28 Mac-Pro OSInstaller[640]: Connection = 0x7f9136598930, callers = (
+	    "<IASUPCaller: 0x7f91365320f0>"
+	)
+Apr 21 12:43:28 Mac-Pro OSInstaller[640]: client 0x7f91365e6450: phaseName = "OS Installer", registering connection
+Apr 21 12:43:28 Mac-Pro OSInstaller[640]: client 0x7f91365e6450: phaseName = "OS Installer" was created
+Apr 21 12:43:28 Mac-Pro Installer Progress[208]: Connected processes {
+	    "2ED560EF-1386-4BAB-8950-D97E857CA987" =     {
+	        "Phase Name" = "OS Installer";
+	        "Process ID" = 640;
+	        UUID = "2ED560EF-1386-4BAB-8950-D97E857CA987";
+	    };
+	    "BB6D11B3-7051-43E0-B7C5-54B6C9CE50DA" =     {
+	        CompletionHandlerKey = "<__NSMallocBlock__: 0x6000011180f0>";
+	        "Phase Name" = "Launch Progress Window";
+	        "Process ID" = 613;
+	        UUID = "BB6D11B3-7051-43E0-B7C5-54B6C9CE50DA";
+	    };
+	    "C66C86D3-F9B1-4BC9-B04C-19E77BDEB72C" =     {
+	        CompletionHandlerKey = "<__NSMallocBlock__: 0x6000011054a0>";
+	        "Phase Name" = "Language Chooser";
+	        "Process ID" = 617;
+	        UUID = "C66C86D3-F9B1-4BC9-B04C-19E77BDEB72C";
+	    };
+	}
+Apr 21 12:43:28 Mac-Pro Installer Progress[208]: Connected processes {
+	    "2ED560EF-1386-4BAB-8950-D97E857CA987" =     {
+	        CompletionHandlerKey = "<__NSMallocBlock__: 0x600001147840>";
+	        "Phase Name" = "OS Installer";
+	        "Process ID" = 640;
+	        UUID = "2ED560EF-1386-4BAB-8950-D97E857CA987";
+	    };
+	    "BB6D11B3-7051-43E0-B7C5-54B6C9CE50DA" =     {
+	        CompletionHandlerKey = "<__NSMallocBlock__: 0x6000011180f0>";
+	        "Phase Name" = "Launch Progress Window";
+	        "Process ID" = 613;
+	        UUID = "BB6D11B3-7051-43E0-B7C5-54B6C9CE50DA";
+	    };
+	    "C66C86D3-F9B1-4BC9-B04C-19E77BDEB72C" =     {
+	        CompletionHandlerKey = "<__NSMallocBlock__: 0x6000011054a0>";
+	        "Phase Name" = "Language Chooser";
+	        "Process ID" = 617;
+	        UUID = "C66C86D3-F9B1-4BC9-B04C-19E77BDEB72C";
+	    };
+	}
+Apr 21 12:43:28 Mac-Pro OSInstaller[640]: Request: State change: "Unknown" -> "Standard"
+Apr 21 12:43:28 Mac-Pro OSInstaller[640]: Mutable product: Looking for automation file at /Volumes/macOS/macOS Install Data/minstallconfig.xml
+Apr 21 12:43:28 Mac-Pro OSInstaller[640]: Looking for automation file at /Volumes/macOS/macOS Install Data/minstallconfig.xml
+Apr 21 12:43:28 Mac-Pro OSInstaller[640]: Checking for mutable product diagnostic info.
+Apr 21 12:43:28 Mac-Pro OSInstaller[640]: X file:///Volumes/macOS/: Missing SystemVersion.plist
+Apr 21 12:43:28 Mac-Pro storagekitd[641]: storagekitd: copyDiskForPath (MacOSXInstaller.choiceChanges) returned nil, error: -69878
+Apr 21 12:43:28 Mac-Pro storagekitd[641]: storagekitd: copyDiskForPath (/System/Installation/Packages/Extras/MacOSXInstaller.choiceChanges) returned nil, error: -69878
+Apr 21 12:43:28 Mac-Pro OSInstaller[640]: Found target disk by UUID: D6D53D4B-1DC3-426D-BAD8-29B37A2AC97D
+Apr 21 12:43:28 Mac-Pro OSInstaller[640]: System Disk (from minstall) UUID:D6D53D4B-1DC3-426D-BAD8-29B37A2AC97D
+Apr 21 12:43:28 Mac-Pro OSInstaller[640]: Data Disk (from minstall) UUID:D6D53D4B-1DC3-426D-BAD8-29B37A2AC97D
+Apr 21 12:43:28 Mac-Pro OSInstaller[640]: Install will be automated.
+Apr 21 12:43:28 Mac-Pro OSInstaller[640]: Install will be a InstallInfo.plist install.
+Apr 21 12:43:28 Mac-Pro OSInstaller[640]: Installer Info install requested but we're not dmg booted
+Apr 21 12:43:28 Mac-Pro OSInstaller[640]: mountDiskImageWithURLString: /Volumes/macOS/macOS Install Data/InstallESDDmg.pkg
+Apr 21 12:43:29 Mac-Pro OSInstaller[640]: Mounting disk image complete, results dict = {
+	    "system-entities" =     (
+	                {
+	            "content-hint" = "GUID_partition_scheme";
+	            "dev-entry" = "/dev/disk28";
+	            "potentially-mountable" = 0;
+	            "unmapped-content-hint" = "GUID_partition_scheme";
+	        },
+	                {
+	            "content-hint" = EFI;
+	            "dev-entry" = "/dev/disk28s1";
+	            "potentially-mountable" = 1;
+	            "unmapped-content-hint" = "C12A7328-F81F-11D2-BA4B-00A0C93EC93B";
+	            "volume-kind" = msdos;
+	        },
+	                {
+	            "content-hint" = "Apple_HFS";
+	            "dev-entry" = "/dev/disk28s2";
+	            "mount-point" = "/Volumes/InstallESD";
+	            "potentially-mountable" = 1;
+	            "unmapped-content-hint" = "48465300-0000-11AA-AA11-00306543ECAC";
+	            "volume-kind" = hfs;
+	        }
+	    );
+	}
+Apr 21 12:43:29 Mac-Pro OSInstaller[640]: Created firmware distribution controller from product
+Apr 21 12:43:29 Mac-Pro OSInstaller[640]: Personalization is not required for the running system
+Apr 21 12:43:29 Mac-Pro OSInstaller[640]: Waiting for target evaluation.
+Apr 21 12:43:29 Mac-Pro OSInstaller[640]: Starting target evaluation queue.
+Apr 21 12:43:29 Mac-Pro OSInstaller[640]: Evaluating install check for OSInstall.mpkg
+Apr 21 12:43:29 Mac-Pro OSInstaller[640]: Install check successful.
+Apr 21 12:43:29 Mac-Pro OSInstaller[640]: Evaluating 28 disks
+Apr 21 12:43:29 Mac-Pro OSInstaller[640]: Evaluating <SKDisk 0x7f90f6438310: { Volume Name: "InstallESD" BSD Name: disk28s2 Mount point: /Volumes/InstallESD Role: kSKDiskRoleLegacyMacData Type: kSKDiskTypeHFS isValid: YES volumeUUID: DC4AD221-10D0-3C07-BCD9-1A337BB2629F}>
+Apr 21 12:43:29 Mac-Pro OSInstaller[640]: InstallESD is a valid target.
+Apr 21 12:43:29 Mac-Pro OSInstaller[640]: Evaluating <SKDisk 0x7f91365d9d60: { Volume Name: "" BSD Name: disk2s1 Mount point: /Volumes/Untitled Role: kSKDiskRoleWindowsData Type: kSKDiskTypeNTFS isValid: YES volumeUUID: 9EA8957C-0B8B-45CA-8FAF-1A9A9FB28416}>
+Apr 21 12:43:29 Mac-Pro OSInstaller[640]:  is a valid target.
+Apr 21 12:43:29 Mac-Pro OSInstaller[640]: Evaluating SKAPFSDisk { APFS UUID: D6D53D4B-1DC3-426D-BAD8-29B37A2AC97D, CONTAINER UUID: 5F705CE8-E2F7-4E5A-B847-26AB97391941, DISK ID: disk4s1 ENCRYPTED: NO } 
+Apr 21 12:43:29 Mac-Pro OSInstaller[640]: macOS is a valid target.
+Apr 21 12:43:29 Mac-Pro OSInstaller[640]: Evaluating <SKDisk 0x7f9130209f40: { Volume Name: "BOOT" BSD Name: disk6s1 Mount point: /Volumes/BOOT Role: kSKDiskRoleWindowsData Type: kSKDiskTypeFAT isValid: YES volumeUUID: C335B180-E4F5-34D7-9B33-4FDF8A14C6DA}>
+Apr 21 12:43:29 Mac-Pro OSInstaller[640]: BOOT is a valid target.
+Apr 21 12:43:29 Mac-Pro OSInstaller[640]: Evaluating <SKDisk 0x7f913011f5b0: { Volume Name: "" BSD Name: disk0s4 Mount point: /Volumes/Untitled 2 Role: kSKDiskRoleWindowsData Type: kSKDiskTypeNTFS isValid: YES volumeUUID: D80CA348-0A06-4042-BA2D-34CB04D2B5D4}>
+Apr 21 12:43:29 Mac-Pro OSInstaller[640]: (null) is a valid target.
+Apr 21 12:43:29 Mac-Pro OSInstaller[640]: Evaluating <SKDisk 0x7f91365e5f60: { Volume Name: "" BSD Name: disk3s1 Mount point: /Volumes/Untitled 1 Role: kSKDiskRoleWindowsData Type: kSKDiskTypeNTFS isValid: YES volumeUUID: 60959C0A-E3C6-4704-99B8-81F2787E67BF}>
+Apr 21 12:43:29 Mac-Pro OSInstaller[640]:  is a valid target.
+Apr 21 12:43:29 Mac-Pro OSInstaller[640]: Evaluating <SKDisk 0x7f91365e6550: { Volume Name: "macOS Base System" BSD Name: disk5s1 Mount point: / Role: kSKDiskRoleLegacyMacData Type: kSKDiskTypeHFS isValid: YES volumeUUID: A55B3F91-E829-320F-98CD-BE162DCD182D}>
+Apr 21 12:43:29 Mac-Pro OSInstaller[640]: macOS Base System is a valid target.
+Apr 21 12:43:29 Mac-Pro OSInstaller[640]: Finished target evaluation.
+Apr 21 12:43:29 Mac-Pro OSInstaller[640]: Found Install Assistant at path: /Install macOS Catalina.app
+Apr 21 12:43:29 Mac-Pro OSInstaller[640]: Found product icon
+Apr 21 12:43:29 Mac-Pro OSInstaller[640]: Set use ROSV paths to NO.
+Apr 21 12:43:29 Mac-Pro OSInstaller[640]: Disabling system idle sleep.
+Apr 21 12:43:29 Mac-Pro powerd[200]: Assertion Created. Type:PreventUserIdleDisplaySleep Name:'OSInstaller' Id:0x500008017 Process:macOS Installer [System: PrevIdle PrevDisp DeclUser IntPrevDisp kDisp]
+Apr 21 12:43:29 Mac-Pro OSInstaller[640]: X file:///Volumes/macOS/: Missing SystemVersion.plist
+Apr 21 12:43:29 Mac-Pro storagekitd[641]: Removing client connection <SKDaemonConnection: 0x7fe438d05ed0>
+Apr 21 12:43:29 Mac-Pro Installer Progress[208]: Connected processes {
+	    "2ED560EF-1386-4BAB-8950-D97E857CA987" =     {
+	        CompletionHandlerKey = "<__NSMallocBlock__: 0x600001147840>";
+	        "Phase Name" = "OS Installer";
+	        "Process ID" = 640;
+	        UUID = "2ED560EF-1386-4BAB-8950-D97E857CA987";
+	    };
+	    "BB6D11B3-7051-43E0-B7C5-54B6C9CE50DA" =     {
+	        CompletionHandlerKey = "<__NSMallocBlock__: 0x6000011180f0>";
+	        "Phase Name" = "Launch Progress Window";
+	        "Process ID" = 613;
+	        UUID = "BB6D11B3-7051-43E0-B7C5-54B6C9CE50DA";
+	    };
+	    "C66C86D3-F9B1-4BC9-B04C-19E77BDEB72C" =     {
+	        CompletionHandlerKey = "<__NSMallocBlock__: 0x6000011054a0>";
+	        "Phase Name" = "Language Chooser";
+	        "Process ID" = 617;
+	        UUID = "C66C86D3-F9B1-4BC9-B04C-19E77BDEB72C";
+	    };
+	}
+Apr 21 12:43:29 Mac-Pro Installer Progress[208]: Done with phase = "OS Installer"
+Apr 21 12:43:29 Mac-Pro storagekitd[641]: No more connections, storagekitd will exit...
+Apr 21 12:43:29 Mac-Pro Language Chooser[617]: Child process exited 11
+Apr 21 12:43:29 Mac-Pro Installer Progress[208]: IASSetCurrentInstallPhase: Current phase name set to "EFI Firmware Update"
+Apr 21 12:43:29 Mac-Pro powerd[200]: Assertion ClientDied. Type:PreventUserIdleDisplaySleep Name:'OSInstaller' Id:0x500008017 Process:macOS Installer [System: DeclUser IntPrevDisp kDisp]
+Apr 21 12:43:29 Mac-Pro Installer Progress[208]: Connected processes {
+	    "BB6D11B3-7051-43E0-B7C5-54B6C9CE50DA" =     {
+	        CompletionHandlerKey = "<__NSMallocBlock__: 0x6000011180f0>";
+	        "Phase Name" = "Launch Progress Window";
+	        "Process ID" = 613;
+	        UUID = "BB6D11B3-7051-43E0-B7C5-54B6C9CE50DA";
+	    };
+	    "C66C86D3-F9B1-4BC9-B04C-19E77BDEB72C" =     {
+	        CompletionHandlerKey = "<__NSMallocBlock__: 0x6000011054a0>";
+	        "Phase Name" = "Language Chooser";
+	        "Process ID" = 617;
+	        UUID = "C66C86D3-F9B1-4BC9-B04C-19E77BDEB72C";
+	    };
+	}
+Apr 21 12:43:29 Mac-Pro Installer Progress[208]: Connected processes {
+	    "BB6D11B3-7051-43E0-B7C5-54B6C9CE50DA" =     {
+	        CompletionHandlerKey = "<__NSMallocBlock__: 0x6000011180f0>";
+	        "Phase Name" = "Launch Progress Window";
+	        "Process ID" = 613;
+	        UUID = "BB6D11B3-7051-43E0-B7C5-54B6C9CE50DA";
+	    };
+	    "C66C86D3-F9B1-4BC9-B04C-19E77BDEB72C" =     {
+	        CompletionHandlerKey = "<__NSMallocBlock__: 0x6000011054a0>";
+	        "Phase Name" = "Language Chooser";
+	        "Process ID" = 617;
+	        UUID = "C66C86D3-F9B1-4BC9-B04C-19E77BDEB72C";
+	    };
+	}
+Apr 21 12:43:29 Mac-Pro Installer Progress[208]: Connected processes {
+	    "BB6D11B3-7051-43E0-B7C5-54B6C9CE50DA" =     {
+	        CompletionHandlerKey = "<__NSMallocBlock__: 0x6000011180f0>";
+	        "Phase Name" = "Launch Progress Window";
+	        "Process ID" = 613;
+	        UUID = "BB6D11B3-7051-43E0-B7C5-54B6C9CE50DA";
+	    };
+	}
+Apr 21 12:43:29 Mac-Pro Unknown[660]: Launching the Installer Crash Log Viewer
+Apr 21 12:43:29 Mac-Pro Viewer[661]: Creating connection
+Apr 21 12:43:29 Mac-Pro Viewer[661]: Connection = 0x7fc885478810, callers = (
+	    "<IASUPCaller: 0x7fc88546fe90>"
+	)
+Apr 21 12:43:29 Mac-Pro Viewer[661]: client 0x7fc885430400: phaseName = "Installer Crash Catcher", registering connection
+Apr 21 12:43:29 Mac-Pro Viewer[661]: client 0x7fc885430400: phaseName = "Installer Crash Catcher" was created
+Apr 21 12:43:29 Mac-Pro Viewer[661]: client 0x7fc885430400: phaseName = "Installer Crash Catcher", hide progress UI called
+Apr 21 12:43:29 Mac-Pro Viewer[661]: ISAP: hide progress UI called
+Apr 21 12:43:29 Mac-Pro Viewer[661]: ISAP: hide progress UI called
+Apr 21 12:43:29 Mac-Pro Viewer[661]: client 0x7fc885430400: phaseName = "Installer Crash Catcher" is being released
+Apr 21 12:43:29 Mac-Pro Viewer[661]: Releasing Connection
+Apr 21 12:43:29 Mac-Pro Installer Progress[208]: Connected processes {
+	    "0F7F3C63-0675-49C9-9982-4E79F10FA844" =     {
+	        "Phase Name" = "Installer Crash Catcher";
+	        "Process ID" = 661;
+	        UUID = "0F7F3C63-0675-49C9-9982-4E79F10FA844";
+	    };
+	    "BB6D11B3-7051-43E0-B7C5-54B6C9CE50DA" =     {
+	        CompletionHandlerKey = "<__NSMallocBlock__: 0x6000011180f0>";
+	        "Phase Name" = "Launch Progress Window";
+	        "Process ID" = 613;
+	        UUID = "BB6D11B3-7051-43E0-B7C5-54B6C9CE50DA";
+	    };
+	}
+Apr 21 12:43:29 Mac-Pro Installer Progress[208]: Connected processes {
+	    "0F7F3C63-0675-49C9-9982-4E79F10FA844" =     {
+	        CompletionHandlerKey = "<__NSMallocBlock__: 0x60000112c1e0>";
+	        "Phase Name" = "Installer Crash Catcher";
+	        "Process ID" = 661;
+	        UUID = "0F7F3C63-0675-49C9-9982-4E79F10FA844";
+	    };
+	    "BB6D11B3-7051-43E0-B7C5-54B6C9CE50DA" =     {
+	        CompletionHandlerKey = "<__NSMallocBlock__: 0x6000011180f0>";
+	        "Phase Name" = "Launch Progress Window";
+	        "Process ID" = 613;
+	        UUID = "BB6D11B3-7051-43E0-B7C5-54B6C9CE50DA";
+	    };
+	}
+Apr 21 12:43:29 Mac-Pro Installer Progress[208]: Hiding Progress UI
+Apr 21 12:43:29 Mac-Pro Installer Progress[208]: Setting window alpha values to 0.0
+Apr 21 12:43:30 Mac-Pro Installer Progress[208]: Connected processes {
+	    "0F7F3C63-0675-49C9-9982-4E79F10FA844" =     {
+	        CompletionHandlerKey = "<__NSMallocBlock__: 0x60000112c370>";
+	        "Phase Name" = "Installer Crash Catcher";
+	        "Process ID" = 661;
+	        UUID = "0F7F3C63-0675-49C9-9982-4E79F10FA844";
+	    };
+	    "BB6D11B3-7051-43E0-B7C5-54B6C9CE50DA" =     {
+	        CompletionHandlerKey = "<__NSMallocBlock__: 0x6000011180f0>";
+	        "Phase Name" = "Launch Progress Window";
+	        "Process ID" = 613;
+	        UUID = "BB6D11B3-7051-43E0-B7C5-54B6C9CE50DA";
+	    };
+	}
+Apr 21 12:43:30 Mac-Pro Installer Progress[208]: Connected processes {
+	    "BB6D11B3-7051-43E0-B7C5-54B6C9CE50DA" =     {
+	        CompletionHandlerKey = "<__NSMallocBlock__: 0x6000011180f0>";
+	        "Phase Name" = "Launch Progress Window";
+	        "Process ID" = 613;
+	        UUID = "BB6D11B3-7051-43E0-B7C5-54B6C9CE50DA";
+	    };
+	}
+Apr 21 12:43:30 Mac-Pro Installer Progress[208]: Ordering windows out
+Apr 21 12:43:30 Mac-Pro Viewer[661]: Use NVRAM prev-lang:kbd value (30788) as default ASCII input source: Polish Pro
+Apr 21 12:43:30 Mac-Pro Viewer[661]: Use NVRAM prev-lang:kbd value (30788) as default ASCII input source: Polish Pro
+Apr 21 12:43:35 Mac-Pro Installer Progress[208]: Unable to quit because there are connected processes
+Apr 21 12:43:35 Mac-Pro Installer Progress[208]: Connected processes {
+	    "BB6D11B3-7051-43E0-B7C5-54B6C9CE50DA" =     {
+	        CompletionHandlerKey = "<__NSMallocBlock__: 0x6000011180f0>";
+	        "Phase Name" = "Launch Progress Window";
+	        "Process ID" = 613;
+	        UUID = "BB6D11B3-7051-43E0-B7C5-54B6C9CE50DA";
+	    };
+	}
+Apr 21 12:43:36 Mac-Pro opendirectoryd[213]: [session] UID: 0, EUID: 0, GID: 0, EGID: 0, PID: 659, PROC: ReportCrash ODNodeCreateWithNameAndOptions request, SessionID: 00000000-0000-0000-0000-000000000000, Name: /Local/Default, Options: 0x0
+Apr 21 12:43:36 Mac-Pro opendirectoryd[213]: [session] node assigned UUID - 4A160FA7-2E53-41E5-AEAA-5E858F635D52
+Apr 21 12:43:36 Mac-Pro opendirectoryd[213]: [session] ODNodeCreateWithNameAndOptions completed
+Apr 21 12:43:36 Mac-Pro opendirectoryd[213]: [session] UID: 0, EUID: 0, GID: 0, EGID: 0, PID: 659, PROC: ReportCrash ODNodeCopyDetails request, NodeID: 4A160FA7-2E53-41E5-AEAA-5E858F635D52, Keys: (
+	    "dsAttrTypeStandard:NodePath"
+	)
+Apr 21 12:43:36 Mac-Pro opendirectoryd[213]: [session] found via filename '/private/var/db/dslocal/nodes/Default/computers/localhost.plist'
+Apr 21 12:43:36 Mac-Pro opendirectoryd[213]: [session] ODNodeCopyDetails completed, delivered 1 result
+Apr 21 12:43:36 Mac-Pro opendirectoryd[213]: [session] UID: 0, EUID: 0, GID: 0, EGID: 0, PID: 659, PROC: ReportCrash ODNodeRelease request, NodeID: 4A160FA7-2E53-41E5-AEAA-5E858F635D52
+Apr 21 12:43:36 Mac-Pro opendirectoryd[213]: [session] ODNodeRelease completed
+Apr 21 12:43:36 Mac-Pro opendirectoryd[213]: [session] UID: 0, EUID: 0, GID: 0, EGID: 0, PID: 659, PROC: ReportCrash ODNodeCreateWithNameAndOptions request, SessionID: 00000000-0000-0000-0000-000000000000, Name: /Search, Options: 0x0
+Apr 21 12:43:36 Mac-Pro opendirectoryd[213]: [session] ODNodeCreateWithNameAndOptions failed with result 2000
+Apr 21 12:43:36 Mac-Pro opendirectoryd[213]: [session] UID: 0, EUID: 0, GID: 0, EGID: 0, PID: 659, PROC: ReportCrash ODNodeCreateWithNameAndOptions request, SessionID: 00000000-0000-0000-0000-000000000000, Name: /Search, Options: 0x0
+Apr 21 12:43:36 Mac-Pro opendirectoryd[213]: [session] ODNodeCreateWithNameAndOptions failed with result 2000
+Apr 21 12:43:36 Mac-Pro opendirectoryd[213]: [session] UID: 0, EUID: 0, GID: 0, EGID: 0, PID: 659, PROC: ReportCrash ODNodeCreateWithNameAndOptions request, SessionID: 00000000-0000-0000-0000-000000000000, Name: /Local/Default, Options: 0x0
+Apr 21 12:43:36 Mac-Pro opendirectoryd[213]: [session] node assigned UUID - CFCEF1A6-7033-4A8D-80A7-3D47F1FDE2E9
+Apr 21 12:43:36 Mac-Pro opendirectoryd[213]: [session] ODNodeCreateWithNameAndOptions completed
+Apr 21 12:43:36 Mac-Pro opendirectoryd[213]: [session] UID: 0, EUID: 0, GID: 0, EGID: 0, PID: 659, PROC: ReportCrash ODQueryCreateWithNode request, NodeID: CFCEF1A6-7033-4A8D-80A7-3D47F1FDE2E9, RecordType(s): dsRecTypeStandard:Users, Attribute: dsAttrTypeStandard:RecordName, MatchType: Any, Equality: CaseIgnore, Value(s): dsRecordsAll, Requested Attributes: dsAttrTypeStandard:GeneratedUID,dsAttrTypeNative:LinkedIdentity,dsAttrTypeStandard:RealName,dsAttrTypeStandard:GroupMembership,dsAttrTypeNative:IsHidden,dsAttrTypeStandard:Picture,dsAttrTypeStandard:UserCertificate,dsAttrTypeStandard:AppleMetaNodeLocation,dsAttrTypeStandard:RecordType,dsAttrTypeStandard:Comment,dsAttrTypeStandard:NestedGroups,dsAttrTypeStandard:PrimaryGroupID,dsAttrTypeStandard:AuthenticationAuthority,dsAttrTypeStandard:Keywords,dsAttrTypeStandard:RecordName,dsAttrTypeStandard:JPEGPhoto,dsAttrTypeNative:_guest,dsAttrTypeStandard:AppleMetaRecordName,dsAttrTypeStandard:UserShell,dsAttrTypeStandard:GroupMembers,dsAttrTypeStandard:UniqueID,dsAttrTypeStandard:EMailAddress,dsAttrTypeStandard:NFSHomeDirectory, Max Results: 2147483647
+Apr 21 12:43:36 Mac-Pro opendirectoryd[213]: [session] queuing request to connection - 923DD4BD-2A61-45D7-B4A9-01CB5918C78A - CFBundle 0x7f816f604080 </System/Library/OpenDirectory/Modules/PlistFile.bundle> (bundle, loaded)
+Apr 21 12:43:36 Mac-Pro opendirectoryd[213]: [session] flushing dirty record '/private/var/db/dslocal/nodes/Default/computers/localhost' from line 6116
+Apr 21 12:43:36 Mac-Pro opendirectoryd[213]: [auth] failed to write file <private>
+Apr 21 12:43:36 Mac-Pro opendirectoryd[213]: [session] ODQueryCreateWithNode completed, delivered 100 results
+Apr 21 12:43:36 Mac-Pro opendirectoryd[213]: [session] UID: 0, EUID: 0, GID: 0, EGID: 0, PID: 659, PROC: ReportCrash ODNodeRelease request, NodeID: CFCEF1A6-7033-4A8D-80A7-3D47F1FDE2E9
+Apr 21 12:43:36 Mac-Pro opendirectoryd[213]: [session] ODNodeRelease completed
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: Process:               macOS Installer [640]
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: Path:                  /System/Installation/CDIS/macOS Installer.app/Contents/MacOS/macOS Installer
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: Identifier:            com.apple.macOS-Installer
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: Version:               1.0 (1330)
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: Build Info:            OSInstaller-1330000000000000~365
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: Code Type:             X86-64 (Native)
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: Parent Process:        ??? [617]
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: Responsible:           bash [222]
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: User ID:               0
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:  
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: Date/Time:             2020-04-21 05:43:31.007 -0700
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: OS Version:            Mac OS X 10.15.4 (19E287)
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: Report Version:        12
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: Anonymous UUID:        63D754B4-A042-4BC3-8ED5-CAF058733247
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:  
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:  
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: Time Awake Since Boot: 93 seconds
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:  
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: System Integrity Protection: disabled
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:  
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: Crashed Thread:        0  Dispatch queue: com.apple.main-thread
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:  
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: Exception Type:        EXC_BAD_ACCESS (SIGSEGV)
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: Exception Codes:       KERN_INVALID_ADDRESS at 0x00000000000007c0
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: Exception Note:        EXC_CORPSE_NOTIFY
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:  
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: Termination Signal:    Segmentation fault: 11
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: Termination Reason:    Namespace SIGNAL, Code 0xb
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: Terminating Process:   exc handler [640]
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:  
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: VM Regions Near 0x7c0:
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: --> 
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:     __TEXT                 000000010b8b9000-000000010b8d2000 [  100K] r-x/r-x SM=COW  /System/Installation/CDIS/macOS Installer.app/Contents/MacOS/macOS Installer
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:  
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: Thread 0 Crashed:: Dispatch queue: com.apple.main-thread
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: 0   libsystem_platform.dylib      	0x00000001119e4e52 _platform_strlen + 18
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: 1   com.apple.GPUInfo             	0x000000011b568bfa get_gpu_EFIATYROM(__GPUWranglerGPU*, __CFDictionary*) + 665
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: 2   com.apple.GPUInfo             	0x000000011b56b7eb invocation function for block in gpustatistics_get_dynamic_statistics() + 108
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: 3   GPUWrangler                   	0x00000001153974ae GPUWranglerForEachGPU + 234
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: 4   com.apple.GPUInfo             	0x000000011b56b725 gpustatistics_get_dynamic_statistics() + 156
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: 5   com.apple.OSInstaller         	0x000000010c163602 +[OSIGatherGPUStatistics gatherDynamicStatistics] + 11
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: 6   com.apple.OSInstaller         	0x000000010c1787fc -[OSInstallController startInstall] + 3549
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: 7   com.apple.macOS-Installer     	0x000000010b8c1c81 0x10b8b9000 + 35969
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: 8   com.apple.macOS-Installer     	0x000000010b8bf1e3 0x10b8b9000 + 25059
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: 9   com.apple.macOS-Installer     	0x000000010b8befdb 0x10b8b9000 + 24539
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: 10  com.apple.macOS-Installer     	0x000000010b8bec2d 0x10b8b9000 + 23597
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: 11  com.apple.macOS-Installer     	0x000000010b8bbb03 0x10b8b9000 + 11011
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: 12  libdispatch.dylib             	0x00000001114d86c4 _dispatch_call_block_and_release + 12
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: 13  libdispatch.dylib             	0x00000001114d9658 _dispatch_client_callout + 8
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: 14  libdispatch.dylib             	0x00000001114e4cab _dispatch_main_queue_callback_4CF + 936
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: 15  com.apple.CoreFoundation      	0x000000010e8c6cc3 __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__ + 9
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: 16  com.apple.CoreFoundation      	0x000000010e88697a __CFRunLoopRun + 2042
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: 17  com.apple.CoreFoundation      	0x000000010e885b23 CFRunLoopRunSpecific + 466
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: 18  com.apple.HIToolbox           	0x00000001199feabd RunCurrentEventLoopInMode + 292
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: 19  com.apple.HIToolbox           	0x00000001199fe7d5 ReceiveNextEventCommon + 584
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: 20  com.apple.HIToolbox           	0x00000001199fe579 _BlockUntilNextEventMatchingListInModeWithFilter + 64
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: 21  com.apple.AppKit              	0x000000010cfafc99 _DPSNextEvent + 883
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: 22  com.apple.AppKit              	0x000000010cfae4e0 -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:] + 1352
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: 23  com.apple.AppKit              	0x000000010cfa01ee -[NSApplication run] + 658
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: 24  com.apple.AppKit              	0x000000010cf71ff6 NSApplicationMain + 777
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: 25  com.apple.macOS-Installer     	0x000000010b8bb1a3 0x10b8b9000 + 8611
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: 26  libdyld.dylib                 	0x0000000111570cc9 start + 1
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:  
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: Thread 1:
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: 0   libsystem_kernel.dylib        	0x000000011199b756 __semwait_signal + 10
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: 1   libsystem_c.dylib             	0x00000001116abeea nanosleep + 196
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: 2   libsystem_c.dylib             	0x00000001116abd52 sleep + 41
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: 3   com.apple.IASUtilities        	0x000000010c607a5a do_log_watch + 55
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: 4   libsystem_pthread.dylib       	0x00000001119fd109 _pthread_start + 148
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: 5   libsystem_pthread.dylib       	0x00000001119f8b8b thread_start + 15
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:  
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: Thread 2:
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: 0   libsystem_pthread.dylib       	0x00000001119f8b68 start_wqthread + 0
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:  
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: Thread 3:
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: 0   libsystem_pthread.dylib       	0x00000001119f8b68 start_wqthread + 0
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:  
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: Thread 4:
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: 0   libsystem_pthread.dylib       	0x00000001119f8b68 start_wqthread + 0
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:  
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: Thread 5:: com.apple.NSEventThread
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: 0   libsystem_kernel.dylib        	0x0000000111998dfa mach_msg_trap + 10
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: 1   libsystem_kernel.dylib        	0x0000000111999170 mach_msg + 60
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: 2   com.apple.CoreFoundation      	0x000000010e887bf7 __CFRunLoopServiceMachPort + 247
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: 3   com.apple.CoreFoundation      	0x000000010e8866b1 __CFRunLoopRun + 1329
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: 4   com.apple.CoreFoundation      	0x000000010e885b23 CFRunLoopRunSpecific + 466
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: 5   com.apple.AppKit              	0x000000010d1515b4 _NSEventThread + 132
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: 6   libsystem_pthread.dylib       	0x00000001119fd109 _pthread_start + 148
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: 7   libsystem_pthread.dylib       	0x00000001119f8b8b thread_start + 15
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:  
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: Thread 6:
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: 0   libsystem_pthread.dylib       	0x00000001119f8b68 start_wqthread + 0
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:  
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: Thread 7:: JavaScriptCore bmalloc scavenger
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: 0   libsystem_kernel.dylib        	0x000000011199b882 __psynch_cvwait + 10
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: 1   libsystem_pthread.dylib       	0x00000001119fd425 _pthread_cond_wait + 698
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: 2   libc++.1.dylib                	0x00000001104c7623 std::__1::condition_variable::__do_timed_wait(std::__1::unique_lock<std::__1::mutex>&, std::__1::chrono::time_point<std::__1::chrono::system_clock, std::__1::chrono::duration<long long, std::__1::ratio<1l, 1000000000l> > >) + 93
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: 3   com.apple.JavaScriptCore      	0x0000000118360a75 bmalloc::Scavenger::threadRunLoop() + 741
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: 4   com.apple.JavaScriptCore      	0x0000000118360489 bmalloc::Scavenger::threadEntryPoint(bmalloc::Scavenger*) + 9
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: 5   com.apple.JavaScriptCore      	0x0000000118362b67 void* std::__1::__thread_proxy<std::__1::tuple<std::__1::unique_ptr<std::__1::__thread_struct, std::__1::default_delete<std::__1::__thread_struct> >, void (*)(bmalloc::Scavenger*), bmalloc::Scavenger*> >(void*) + 39
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: 6   libsystem_pthread.dylib       	0x00000001119fd109 _pthread_start + 148
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: 7   libsystem_pthread.dylib       	0x00000001119f8b8b thread_start + 15
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:  
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: Thread 0 crashed with X86 Thread State (64-bit):
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:   rax: 0x00000000000007c8  rbx: 0x00000000000007c8  rcx: 0x00000000000007c8  rdx: 0x00000000000007c8
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:   rdi: 0x00000000000007c0  rsi: 0x00007ffee43425e0  rbp: 0x00007ffee43424c0  rsp: 0x00007ffee43424c0
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:    r8: 0x000000010ec85a40   r9: 0x0000000000000000  r10: 0x000000010edc0280  r11: 0x17f668481d93266f
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:   r12: 0x000000011b56d3d8  r13: 0x000000011b56d390  r14: 0x00007f91266581e0  r15: 0x00007ffee43425e0
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:   rip: 0x00000001119e4e52  rfl: 0x0000000000010206  cr2: 0x00000000000007c0
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:   
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: Logical CPU:     6
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: Error Code:      0x00000004 (no mapping for user data read)
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: Trap Number:     14
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:  
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:  
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: Binary Images:
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x10b8b9000 -        0x10b8d1fff  com.apple.macOS-Installer (1.0 - 1330) <0B7306CA-8448-3628-BF74-C54FC16D2A9A> /System/Installation/CDIS/macOS Installer.app/Contents/MacOS/macOS Installer
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x10b8e6000 -        0x10b8eaffb  libScreenReader.dylib (708.11) <31A0D56A-9CE7-3310-A7E9-CAC7C560826D> /usr/lib/libScreenReader.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x10b8f7000 -        0x10b901ff9  libIASUnifiedProgress.dylib (550.2.1) <C2282E9D-6FAF-3539-866B-6A10376023FE> /usr/lib/libIASUnifiedProgress.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x10b913000 -        0x10b913fff  libenergytrace.dylib (21) <FFB9FB70-8DBD-3025-BC92-51F02481A489> /usr/lib/libenergytrace.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x10b91a000 -        0x10bfb0ff8  com.apple.CoreGraphics (2.0 - 1355.13) <6933695A-C08B-37B6-9BC9-28A4218960C8> /System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x10c119000 -        0x10c119fff  libcharset.1.dylib (59) <4E63BA25-04A3-329A-923D-251155C03F30> /usr/lib/libcharset.1.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x10c120000 -        0x10c13eff3  com.apple.DistributionKit (700 - 1000) <8A20FE77-4E96-3A43-A671-16DF092B2564> /System/Library/PrivateFrameworks/Install.framework/Frameworks/DistributionKit.framework/Versions/A/DistributionKit
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x10c161000 -        0x10c1ceffc  com.apple.OSInstaller (1.0 - 1330) <36064F32-5717-389B-AA52-9902B316A7D0> /System/Library/PrivateFrameworks/OSInstaller.framework/Versions/A/OSInstaller
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x10c20b000 -        0x10c20bfff  com.apple.Accelerate.vecLib (3.11 - vecLib 3.11) <20EC1281-A4CD-352D-817C-1016A8BDEC0A> /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/vecLib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x10c212000 -        0x10c24fffe  com.apple.StorageKit (1.0 - 589) <2BD8DBDD-0922-3C88-904E-9C86F609BAA7> /System/Library/PrivateFrameworks/StorageKit.framework/Versions/A/StorageKit
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x10c284000 -        0x10c284fff  com.apple.Carbon (160 - 162) <CAA294BD-BC93-384A-8415-B254C89098FC> /System/Library/Frameworks/Carbon.framework/Versions/A/Carbon
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x10c28b000 -        0x10c296ffe  com.apple.PackageUIKit (1.0 - 1) <972E56E7-8A04-38A6-AAF0-D5DA8CABA802> /System/Library/PrivateFrameworks/PackageKit.framework/Frameworks/PackageUIKit.framework/Versions/A/PackageUIKit
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x10c2a9000 -        0x10c336ffc  com.apple.framework.CoreWLAN (13.0 - 1601.2) <C1C2BBD4-EA97-3CC1-845D-1F1578E68380> /System/Library/Frameworks/CoreWLAN.framework/Versions/A/CoreWLAN
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x10c3a1000 -        0x10c445ff3  com.apple.framework.IOKit (2.0.2 - 1726.100.16) <3D8BA34A-AAF7-3AF2-9B5B-189AC4755404> /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x10c49b000 -        0x10c559ff4  com.apple.PackageKit (3.0 - 980.2) <EF8A6E09-A3E0-3F63-B25B-46791075429D> /System/Library/PrivateFrameworks/PackageKit.framework/Versions/A/PackageKit
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x10c5fe000 -        0x10c63eff1  com.apple.IASUtilities (1.0 - 550.2.1) <E9B00F02-DFFF-3D35-A2E5-2ABEBD244311> /System/Library/PrivateFrameworks/IASUtilities.framework/Versions/A/IASUtilities
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x10c687000 -        0x10c687fff  com.apple.Cocoa (6.11 - 23) <37E98F4D-1D78-3F22-BDC0-59DC0B9B3A3E> /System/Library/Frameworks/Cocoa.framework/Versions/A/Cocoa
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x10c690000 -        0x10c750ff7  SoftwareUpdate (1290.0.0.3) <3F281C5B-A5D3-34FE-BEB1-4E532046F06B> /System/Library/PrivateFrameworks/SoftwareUpdate.framework/Versions/A/SoftwareUpdate
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x10c7eb000 -        0x10c7ebfff  com.apple.ink.framework (10.15 - 227) <90518F56-AD8A-3627-905A-16E2B8640F87> /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/Ink.framework/Versions/A/Ink
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x10c7f2000 -        0x10cbb7ff8  com.apple.Foundation (6.9 - 1675.129) <9A74FA97-7F7B-3929-B381-D9514B1E4754> /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x10cf09000 -        0x10cf3bfde  libobjc.A.dylib (787.1) <1355CEE9-4B15-3137-BB9E-D1686D6D2A0E> /usr/lib/libobjc.A.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x10cf62000 -        0x10cf63fff  libSystem.B.dylib (1281.100.1) <DB8310F1-272D-3533-A840-3B390AF55C26> /usr/lib/libSystem.B.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x10cf6f000 -        0x10dd2eff5  com.apple.AppKit (6.9 - 1894.40.150) <FDDF35FF-4007-3F0B-B59C-03CFF3A0A73B> /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x10e803000 -        0x10ec83ff3  com.apple.CoreFoundation (6.9 - 1675.129) <233ECC64-84C9-3325-8A30-7714FBDF77CD> /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x10ef4d000 -        0x10ef4dfff  com.apple.ApplicationServices (48 - 50) <CABCF23C-55E5-35E1-AAF0-EE5DDE3FDB03> /System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x10ef58000 -        0x10f039ffa  com.apple.audio.toolbox.AudioToolbox (1.14 - 1.14) <4222CBDF-D637-30DB-BA45-C6E222BABB24> /System/Library/Frameworks/AudioToolbox.framework/Versions/A/AudioToolbox
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x10f0aa000 -        0x10f0aafff  com.apple.print.framework.Print (15 - 271) <29384C24-6667-3BAA-992A-DAD809D6387E> /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/Print.framework/Versions/A/Print
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x10f0b0000 -        0x10f267ffc  com.apple.CoreText (643.1.4.4 - 643.1.4.4) <5D4EA236-DC1B-3772-95C5-7F4B6CFEAF84> /System/Library/Frameworks/CoreText.framework/Versions/A/CoreText
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x10f35b000 -        0x10f4b9ffe  com.apple.ImageIO.framework (3.3.0 - 1976.3.4.4) <A3A69400-1E28-3E29-9E3C-9CEA76254318> /System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x10f563000 -        0x10f659fff  com.apple.ColorSync (4.13.0 - 3394.7) <FC6CFACE-CDD8-3811-BAB6-C9F82AC0A594> /System/Library/Frameworks/ColorSync.framework/Versions/A/ColorSync
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x10f6bf000 -        0x10f72afff  com.apple.ApplicationServices.ATS (377 - 493.0.4.1) <6AA4BBCC-43AF-3EBF-8EB5-7916A3B563AA> /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/ATS
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x10f75b000 -        0x10f75bffb  com.apple.AOSMigrate (1.0 - 1) <FBE28F59-B98B-3602-9AAE-B26F0D1FF468> /System/Library/PrivateFrameworks/AOSMigrate.framework/Versions/A/AOSMigrate
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x10f762000 -        0x10f766ffb  com.apple.ColorSyncLegacy (4.13.0 - 1) <2359E2CD-8FCE-32D7-AF76-F4D9A3D9D9F8> /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ColorSyncLegacy.framework/Versions/A/ColorSyncLegacy
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x10f776000 -        0x10f776fff  com.apple.CoreServices (1069.22 - 1069.22) <888FE7B9-CE6C-3C7C-BA33-63364462228A> /System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x10f77e000 -        0x10f7d5ffa  com.apple.HIServices (1.22 - 675.1) <B2DEE96F-ED7A-3924-A2E2-44BB7A950BD8> /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/HIServices
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x10f81b000 -        0x10f829fff  com.apple.LangAnalysis (1.7.0 - 1.7.0) <1603F2CC-DC51-3E15-B6B5-0A9F9AB0C045> /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework/Versions/A/LangAnalysis
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x10f841000 -        0x10f886ffa  com.apple.print.framework.PrintCore (15.4 - 516.2) <525E8A4B-297B-3CAC-8A4A-6C7E211D7A21> /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/PrintCore.framework/Versions/A/PrintCore
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x10f8b9000 -        0x10f8c3ff7  com.apple.QD (4.0 - 413) <1EAEF5BC-D649-3E42-87BC-43CCEE4D5274> /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/QD.framework/Versions/A/QD
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x10f8dc000 -        0x10f8e9ffc  com.apple.speech.synthesis.framework (9.0.24 - 9.0.24) <C2E5BBFC-2EF0-3FFE-A1CF-960631DC249C> /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/SpeechSynthesis.framework/Versions/A/SpeechSynthesis
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x10f904000 -        0x10fbfafff  com.apple.SkyLight (1.600.0 - 450.9) <C6AF6A79-C673-3B9E-95E0-993F43AE7EED> /System/Library/PrivateFrameworks/SkyLight.framework/Versions/A/SkyLight
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x10fd0b000 -        0x10fe42ffc  libFontParser.dylib (277.2.4.2) <B59E080A-9FC3-3511-9024-E6D5461E60D1> /System/Library/PrivateFrameworks/FontServices.framework/libFontParser.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x10fed3000 -        0x10fed3fff  com.apple.Accelerate (1.11 - Accelerate 1.11) <EF0B0F85-2D5F-3543-8B7F-F73251E354F4> /System/Library/Frameworks/Accelerate.framework/Versions/A/Accelerate
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x10fede000 -        0x10feefffb  com.apple.IOSurface (269.11 - 269.11) <887CD3FD-1BB8-3BB7-B7F8-6A0BA4B3AEAE> /System/Library/Frameworks/IOSurface.framework/Versions/A/IOSurface
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x10ff0f000 -        0x10fff1ff7  libxml2.2.dylib (33.3) <24147A90-E3EB-3926-BFB0-5F0FC9F706E2> /usr/lib/libxml2.2.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x110030000 -        0x1103beffd  com.apple.CFNetwork (1125.2 - 1125.2) <1D4D81F7-FC48-3588-87FC-481E2586E345> /System/Library/Frameworks/CFNetwork.framework/Versions/A/CFNetwork
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1104a0000 -        0x1104b2ff3  libz.1.dylib (76) <6A449C6A-DF88-36C1-8F2D-DB9A808263B5> /usr/lib/libz.1.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1104bf000 -        0x110511fff  libc++.1.dylib (902.1) <08199809-33CA-321E-9B9D-FD5B2BC64580> /usr/lib/libc++.1.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11056e000 -        0x110586fd7  libcompression.dylib (87) <34D9E608-EEE0-3FD6-97DC-FF16D823ABC3> /usr/lib/libcompression.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x110598000 -        0x11059aff7  libDiagnosticMessagesClient.dylib (112) <BE749883-9400-334A-8FBF-F3321CF205F5> /usr/lib/libDiagnosticMessagesClient.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1105a5000 -        0x110613ff7  com.apple.SystemConfiguration (1.19 - 1.19) <71AC15DE-7018-3D2B-B599-F2972F0288AE> /System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x110653000 -        0x11077effe  com.apple.CoreDisplay (1.0 - 186.5.25) <53F750C6-947A-39AE-984E-41939B858A68> /System/Library/Frameworks/CoreDisplay.framework/Versions/A/CoreDisplay
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1107ff000 -        0x110807ff5  IOAccelerator (438.4.5) <4B2F1D11-C36B-3C48-9934-8A973348A966> /System/Library/PrivateFrameworks/IOAccelerator.framework/Versions/A/IOAccelerator
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11081d000 -        0x1108e7fff  Metal (212.5.15) <2CBB178E-434E-31D3-BAE2-ED3EA801D4BC> /System/Library/Frameworks/Metal.framework/Versions/A/Metal
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x110aa2000 -        0x110ad2ff7  com.apple.MultitouchSupport.framework (3440.1 - 3440.1) <0AA68A0D-23F6-3628-A93F-8F8018B84920> /System/Library/PrivateFrameworks/MultitouchSupport.framework/Versions/A/MultitouchSupport
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x110ae8000 -        0x110e31ff1  com.apple.security (7.0 - 59306.101.1) <430E04FE-F068-3476-9CA2-72CB5F040D1F> /System/Library/Frameworks/Security.framework/Versions/A/Security
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x110ff4000 -        0x111276ff2  com.apple.QuartzCore (1.11 - 840.18) <16502545-A0F3-3367-929B-DD80A6440226> /System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1113a7000 -        0x1113b7ffb  libbsm.0.dylib (60.100.1) <B0373A39-DBC6-3A84-879B-BA46E30D04BF> /usr/lib/libbsm.0.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1113c3000 -        0x1113c8ff3  libcache.dylib (83) <5F90FFCE-403B-3724-991D-BA32401D99C5> /usr/lib/system/libcache.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1113d1000 -        0x1113dcfff  libcommonCrypto.dylib (60165) <C7A5E3F7-1E5A-3785-875A-B6647082B614> /usr/lib/system/libcommonCrypto.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1113ee000 -        0x1113f5fff  libcompiler_rt.dylib (101.2) <A517E149-2D25-3C04-BCEF-F69149C85B18> /usr/lib/system/libcompiler_rt.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11140c000 -        0x111415ff7  libcopyfile.dylib (166.40.1) <1A5270B5-0D97-35DA-9296-4F4A428BC6A2> /usr/lib/system/libcopyfile.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x111423000 -        0x1114b5fe3  libcorecrypto.dylib (866.100.30) <FCDEC0D1-8C30-3989-BDD1-996BBC715C29> /usr/lib/system/libcorecrypto.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1114d7000 -        0x111517ff0  libdispatch.dylib (1173.100.2) <EB592997-B11C-3AB3-85B1-F725F3D0B412> /usr/lib/system/libdispatch.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x111556000 -        0x11158cfff  libdyld.dylib (750.5) <D2A07EF5-A64B-3692-BE13-89DAA2EC5E80> /usr/lib/system/libdyld.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1115bb000 -        0x1115bbffb  libkeymgr.dylib (30) <CC5A2B43-770B-3C6C-BA10-AA3A6B4A142D> /usr/lib/system/libkeymgr.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1115c2000 -        0x1115c2ff7  liblaunch.dylib (1738.100.39) <A7FF7357-600F-3014-8C28-A4F367717E8D> /usr/lib/system/liblaunch.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1115cf000 -        0x1115d4ff7  libmacho.dylib (959.0.1) <D8FED478-25A2-3844-AE4B-A5C9F9827615> /usr/lib/system/libmacho.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1115e1000 -        0x1115e3ff3  libquarantine.dylib (110.40.3) <51E0304F-AB11-3BF7-99DC-BB916CC9088B> /usr/lib/system/libquarantine.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1115f2000 -        0x1115f3ff7  libremovefile.dylib (48) <078F29AB-26BA-3493-BCAA-E1E75A187521> /usr/lib/system/libremovefile.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1115fb000 -        0x111612ff3  libsystem_asl.dylib (377.60.2) <0F1BAC19-2AE0-3F8E-9B90-AACF819B2BF7> /usr/lib/system/libsystem_asl.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x111625000 -        0x111625ff7  libsystem_blocks.dylib (74) <32224AFF-C06F-3279-B753-097194EDEF49> /usr/lib/system/libsystem_blocks.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x111634000 -        0x1116bbfff  libsystem_c.dylib (1353.100.2) <4F5EED22-4D46-3F04-8C64-C492CDAD70EB> /usr/lib/system/libsystem_c.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1116f0000 -        0x1116f3ffb  libsystem_configuration.dylib (1061.101.1) <2A2C778D-07EB-35C7-A954-8BF8FD74BD75> /usr/lib/system/libsystem_configuration.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x111701000 -        0x111704fff  libsystem_coreservices.dylib (114) <FDA41CC4-170A-3D93-85BD-838A563B03C4> /usr/lib/system/libsystem_coreservices.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x111710000 -        0x111718fff  libsystem_darwin.dylib (1353.100.2) <B567B86D-8818-38A4-A861-03EB83B55867> /usr/lib/system/libsystem_darwin.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11172b000 -        0x111732fff  libsystem_dnssd.dylib (1096.100.3) <7C690DF5-E119-33FB-85CD-9EFC67A36E40> /usr/lib/system/libsystem_dnssd.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11173f000 -        0x111740ffb  libsystem_featureflags.dylib (17) <415D83EF-084C-3485-B757-53001870EA94> /usr/lib/system/libsystem_featureflags.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11174d000 -        0x11179aff7  libsystem_info.dylib (538) <17049D3F-C798-3651-B391-1551FC699D3E> /usr/lib/system/libsystem_info.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1117b3000 -        0x1117c0ffb  libsystem_networkextension.dylib (1095.100.29) <C9E988B2-6A18-35C0-9577-63201E9D6018> /usr/lib/system/libsystem_networkextension.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1117d4000 -        0x111865eff  dyld (750.5) <1F893B81-89A5-3502-8510-95B97B9F730D> /usr/lib/dyld
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1118d9000 -        0x111924fef  libsystem_m.dylib (3178) <D9099D98-4E16-3EA1-8BF8-2EA3FCC4A282> /usr/lib/system/libsystem_m.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x111936000 -        0x11195dfff  libsystem_malloc.dylib (283.100.5) <97833239-2F83-3AEB-A426-0593997C8A54> /usr/lib/system/libsystem_malloc.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11196e000 -        0x111977ff7  libsystem_notify.dylib (241.100.2) <E405F84B-BD4F-3874-9755-CB3EC86E18D5> /usr/lib/system/libsystem_notify.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x111980000 -        0x111984ff3  libsystem_sandbox.dylib (1217.101.2) <E9D78CDE-FB67-32E7-BABC-9EFC23AA0DC6> /usr/lib/system/libsystem_sandbox.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11198e000 -        0x111990fff  libsystem_secinit.dylib (62.100.2) <AAC639E5-7103-3366-A602-8FC6944E2C13> /usr/lib/system/libsystem_secinit.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x111998000 -        0x1119c4ff7  libsystem_kernel.dylib (6153.101.6) <E76440E1-D1E8-3D9A-8B47-D01F554FF1C4> /usr/lib/system/libsystem_kernel.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1119e4000 -        0x1119ecfef  libsystem_platform.dylib (220.100.1) <6EF12F34-C33F-36BF-9A9A-2A35EA19EFE0> /usr/lib/system/libsystem_platform.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1119f7000 -        0x111a01fff  libsystem_pthread.dylib (416.100.3) <A8514582-E000-3854-911A-0A73D2C79600> /usr/lib/system/libsystem_pthread.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x111a0f000 -        0x111a16ffb  libsystem_symptoms.dylib (1238.100.26) <487B92DE-45F9-39F9-A478-89BBD478157D> /usr/lib/system/libsystem_symptoms.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x111a1f000 -        0x111a35ff2  libsystem_trace.dylib (1147.100.8) <BB90B1FD-8C09-3DF4-BD8B-9E4AEADFEA2B> /usr/lib/system/libsystem_trace.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x111a47000 -        0x111a4cff7  libunwind.dylib (35.4) <CC87C836-BE9D-334E-A0E6-0297D52E9D73> /usr/lib/system/libunwind.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x111a56000 -        0x111a8bffe  libxpc.dylib (1738.100.39) <32B0E31E-9DA3-328B-A962-BC9591B93537> /usr/lib/system/libxpc.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x111aba000 -        0x111acfffb  libc++abi.dylib (902) <1C880020-396D-3F91-BE27-5A09A9239F68> /usr/lib/libc++abi.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x111aee000 -        0x111b06ff3  liblzma.5.dylib (16) <0AA1EB11-A433-327E-B8DB-7395CFF06554> /usr/lib/liblzma.5.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x111b11000 -        0x111b11ff3  libauto.dylib (187) <FD0E5750-7004-36A7-B9C2-D6B6B4EF559B> /usr/lib/libauto.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x111b19000 -        0x111b1bfff  libfakelink.dylib (149.1) <B04F9A05-7E52-3382-9186-F603BE4BFBB2> /usr/lib/libfakelink.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x111b23000 -        0x111b29fff  com.apple.DiskArbitration (2.7 - 2.7) <D7617B57-B01C-3848-8818-593FB12039E9> /System/Library/Frameworks/DiskArbitration.framework/Versions/A/DiskArbitration
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x111b36000 -        0x111ba8ff7  libarchive.2.dylib (72.100.1) <65E0870E-02AB-365D-84F9-5800B5BB69FC> /usr/lib/libarchive.2.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x111bbc000 -        0x111e13fff  libicucore.A.dylib (64260.0.1) <DCC4A4EE-32FD-350F-84D8-E857F2F29855> /usr/lib/libicucore.A.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x111f07000 -        0x111f08fff  liblangid.dylib (133) <E9595222-602B-38F0-8572-0F1872A00527> /usr/lib/liblangid.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x111f10000 -        0x111f44fff  libCRFSuite.dylib (48) <E52BECF7-1819-3998-ACC4-8D1A332CE4EB> /usr/lib/libCRFSuite.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x111f61000 -        0x111f6dff3  libkxld.dylib (6153.101.6) <77282DCB-83D6-3199-874E-9A4A0FD7D4F3> /usr/lib/system/libkxld.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x111f75000 -        0x111f84fd7  com.apple.AppleFSCompression (119.100.1 - 1.0) <E1B024EB-DAB1-30A1-A43D-01D9E9357F2B> /System/Library/PrivateFrameworks/AppleFSCompression.framework/Versions/A/AppleFSCompression
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x111f90000 -        0x111fa6ff7  libcoretls.dylib (167) <EFC237BB-78F7-33C6-BFF9-53860062DD99> /usr/lib/libcoretls.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x111fb4000 -        0x111fb5fff  libcoretls_cfhelpers.dylib (167) <2E542A2B-7730-33EE-9B3B-154B08608AA6> /usr/lib/libcoretls_cfhelpers.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x111fbe000 -        0x111fc2fff  libpam.2.dylib (25.100.1) <D5CEC1AD-A2EC-362C-B71A-22FD521917F1> /usr/lib/libpam.2.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x111fcb000 -        0x1121adff7  libsqlite3.dylib (308.4) <E097B676-FF88-3EF4-92FD-6A5DBC3A4384> /usr/lib/libsqlite3.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1121dc000 -        0x1121e9ff7  libxar.1.dylib (425.2) <625F24E1-1A0F-3301-9F99-F0F3DADE0287> /usr/lib/libxar.1.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1121f5000 -        0x112201fff  libbz2.1.0.dylib (44) <FFCD4427-AF87-36D2-8097-8870FDC75A1B> /usr/lib/libbz2.1.0.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x112209000 -        0x1122f9fff  libiconv.2.dylib (59) <9458704B-A702-37CB-9707-66ABBB5DB71E> /usr/lib/libiconv.2.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11230c000 -        0x112787ff5  libnetwork.dylib (1880.100.30) <9519B6F8-44E2-3F53-B995-1527C5333240> /usr/lib/libnetwork.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11285d000 -        0x112893ff7  libpcap.A.dylib (89.100.1) <171BAAB0-A5C8-32C5-878E-83D46073BF8C> /usr/lib/libpcap.A.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1128a5000 -        0x1128bbfff  libapple_nghttp2.dylib (1.39.2) <268F4E3E-95DC-35FB-82DC-5B0D1855A676> /usr/lib/libapple_nghttp2.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1128c6000 -        0x1128ceff7  com.apple.CoreServices.FSEvents (1268.100.1 - 1268.100.1) <CE3D8B13-2583-3527-8532-D5DDAAD7D56B> /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/FSEvents.framework/Versions/A/FSEvents
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1128d9000 -        0x112bbaff7  com.apple.CoreServices.CarbonCore (1217 - 1217) <D0FECC17-7E16-308F-98EA-AF311CB77FE6> /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/CarbonCore
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x112c38000 -        0x112cd0ff1  com.apple.Metadata (10.7.0 - 2076.3) <EE42CCA1-FEC2-3F1C-9B62-2E73EFB05FCC> /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Metadata
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x112d4f000 -        0x112d7cfff  com.apple.CoreServices.OSServices (1069.22 - 1069.22) <A0654B4E-3194-3066-911F-FF1FBEE1D2C2> /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/OSServices.framework/Versions/A/OSServices
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x112daa000 -        0x112e11fff  com.apple.SearchKit (1.4.1 - 1.4.1) <D4F82BC9-FD9B-3E04-B78E-D9E2A73B0BD7> /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/SearchKit.framework/Versions/A/SearchKit
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x112e55000 -        0x112edafff  com.apple.AE (838.1 - 838.1) <2BAB1B88-C198-3D20-8DA3-056E66510E7A> /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x112ef9000 -        0x113132ffc  com.apple.LaunchServices (1069.22 - 1069.22) <E51EE658-608C-3034-9635-4FDF1E241E62> /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/LaunchServices
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11329d000 -        0x1132eaffd  com.apple.DictionaryServices (1.2 - 323.6) <11513ED9-8B4B-39BB-A6B2-AA6AA0A2DF72> /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/DictionaryServices
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x113322000 -        0x113346ff5  com.apple.coreservices.SharedFileList (131.4 - 131.4) <AEB4E42C-F5A2-3F63-80B0-4226483AD4F5> /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/SharedFileList.framework/Versions/A/SharedFileList
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x113370000 -        0x11337cffe  com.apple.NetFS (6.0 - 4.0) <7A96A8FE-17F3-3850-8E81-9DDDC5A48DDB> /System/Library/Frameworks/NetFS.framework/Versions/A/NetFS
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x113388000 -        0x113392fff  com.apple.NetAuth (6.2 - 6.2) <D324C7CC-E614-35F6-8619-DECBE90ECAEB> /System/Library/PrivateFrameworks/NetAuth.framework/Versions/A/NetAuth
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1133a0000 -        0x1133a2ff3  com.apple.loginsupport (1.0 - 1) <B84ABC31-431B-3F99-BABE-44ED0A7DB3C0> /System/Library/PrivateFrameworks/login.framework/Versions/A/Frameworks/loginsupport.framework/Versions/A/loginsupport
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1133ab000 -        0x1133bbff3  com.apple.TCC (1.0 - 1) <AEE98D6E-03FD-3C80-90AC-5B45B4AE7A2E> /System/Library/PrivateFrameworks/TCC.framework/Versions/A/TCC
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1133ce000 -        0x113438ff0  com.apple.CoreNLP (1.0 - 213) <687A4C31-A307-3255-83BE-9B123971FF62> /System/Library/PrivateFrameworks/CoreNLP.framework/Versions/A/CoreNLP
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x113499000 -        0x1134e5fff  MetadataUtilities (2076.3) <EF8AC054-B15F-375F-AACB-018DC73CD16E> /System/Library/PrivateFrameworks/MetadataUtilities.framework/Versions/A/MetadataUtilities
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11352a000 -        0x11378cfe1  libmecabra.dylib (883.10) <6AC22857-F528-35CE-94A9-D70F6F766C15> /usr/lib/libmecabra.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1137ee000 -        0x113895ff7  libmecab.dylib (883.10) <13136C11-8763-37BA-AEB2-676092798DAA> /usr/lib/libmecab.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1138b5000 -        0x1138bafff  libgermantok.dylib (24) <8091F952-B592-38E3-982B-7DEA0A44E211> /usr/lib/libgermantok.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1138c2000 -        0x1138c3fff  libThaiTokenizer.dylib (3) <DC582222-7C1F-3C27-8C3A-BAF696A2197D> /usr/lib/libThaiTokenizer.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1138cb000 -        0x1138d5fff  libChineseTokenizer.dylib (34) <EE842A48-3D30-34B0-B9D2-F045DE582650> /usr/lib/libChineseTokenizer.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1138e6000 -        0x114181fff  com.apple.vImage (8.1 - 524.2) <E396BDC6-045F-302D-BA78-67233762C4D7> /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vImage.framework/Versions/A/vImage
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1141fb000 -        0x114379fe7  libvMisc.dylib (735.100.4) <ACAF653F-A0E9-3D01-9578-7152EAD1DBA1> /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libvMisc.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11438c000 -        0x11451efe3  libvDSP.dylib (735.100.4) <BB2D5A62-C584-3D08-8B51-5BF9BA7BCD55> /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libvDSP.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11452f000 -        0x1146c4fef  libBLAS.dylib (1303.60.1) <8E10CA70-C873-31A5-AE86-FD22FBEC204E> /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBLAS.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1146d9000 -        0x114a80fff  libLAPACK.dylib (1303.60.1) <457EB68E-5FEB-3940-A9F1-8B6E75AC6FE0> /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libLAPACK.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x114ad3000 -        0x114ae8ffc  libLinearAlgebra.dylib (1303.60.1) <5CEBADA6-BE7B-3928-8417-B60EF814B9D0> /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libLinearAlgebra.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x114af3000 -        0x114b05ff7  libSparseBLAS.dylib (1303.60.1) <9C402FE0-062B-3BCA-8E6B-36AE4BBD8871> /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libSparseBLAS.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x114b10000 -        0x114b15ff3  libQuadrature.dylib (7) <EB7C9E98-D1E7-314C-90B4-3EB04428CC7C> /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libQuadrature.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x114b1c000 -        0x114e5dfff  libBNNS.dylib (144.100.2) <66DC1355-F9D7-3449-83E5-66F155C508E2> /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libBNNS.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x114e6f000 -        0x114edffff  libSparse.dylib (103) <8C55F5F2-6AE3-393C-B2FF-22B8CFCBD7FC> /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vecLib.framework/Versions/A/libSparse.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x114ef4000 -        0x114fc2ffd  com.apple.LanguageModeling (1.0 - 215.1) <3FAF1700-F7D4-3F92-88AA-A3920702B8BB> /System/Library/PrivateFrameworks/LanguageModeling.framework/Versions/A/LanguageModeling
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x114fe9000 -        0x114ff9ff3  com.apple.CoreEmoji (1.0 - 107) <AC83B860-61BD-384E-81BF-CA3CBE655968> /System/Library/PrivateFrameworks/CoreEmoji.framework/Versions/A/CoreEmoji
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x115005000 -        0x11500aff3  com.apple.LinguisticData (1.0 - 353.18) <BA3869B7-9C39-32DA-A4BA-12F1BC4B04CF> /System/Library/PrivateFrameworks/LinguisticData.framework/Versions/A/LinguisticData
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x115015000 -        0x11505dfff  com.apple.Lexicon-framework (1.0 - 72) <212D02CE-11BC-3C7F-BDFD-DF1A0C4017EE> /System/Library/PrivateFrameworks/Lexicon.framework/Versions/A/Lexicon
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x115070000 -        0x115081fff  libcmph.dylib (8) <D4C5E0A8-92D9-33D5-9F83-6F4742FFBE29> /usr/lib/libcmph.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11508d000 -        0x1150a9fff  com.apple.CFOpenDirectory (10.15 - 220.40.1) <58835104-9E7A-32E8-862B-530CE899C9B4> /System/Library/Frameworks/OpenDirectory.framework/Versions/A/Frameworks/CFOpenDirectory.framework/Versions/A/CFOpenDirectory
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1150cc000 -        0x1150d7ffd  com.apple.OpenDirectory (10.15 - 220.40.1) <D846BA35-59A1-3B78-B1C8-7E0EDE972AD2> /System/Library/Frameworks/OpenDirectory.framework/Versions/A/OpenDirectory
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1150f0000 -        0x1151b5ff7  com.apple.APFS (1412.101.1 - 1412.101.1) <2F5A48FB-9788-3A24-87FE-C1B7DDBC8A07> /System/Library/PrivateFrameworks/APFS.framework/Versions/A/APFS
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1151d4000 -        0x11525cffb  com.apple.securityfoundation (6.0 - 55236.60.1) <BC15B825-955D-33CF-B416-A64D69A1D008> /System/Library/Frameworks/SecurityFoundation.framework/Versions/A/SecurityFoundation
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1152dc000 -        0x1152dfffb  libutil.dylib (57) <07ED7CF0-1744-3386-B8B2-0DDBD446999E> /usr/lib/libutil.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1152e8000 -        0x115316ffd  com.apple.CSStore (1069.22 - 1069.22) <39E431F9-3584-34DF-A64D-C5895AA72068> /System/Library/PrivateFrameworks/CoreServicesStore.framework/Versions/A/CoreServicesStore
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x115335000 -        0x115339ff8  com.apple.xpc.ServiceManagement (1.0 - 1) <C66FC9CF-224B-348C-94A5-ABAC579F5C0A> /System/Library/Frameworks/ServiceManagement.framework/Versions/A/ServiceManagement
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x115344000 -        0x11534dff7  com.apple.coreservices.BackgroundTaskManagement (1.0 - 104) <2088BC70-5329-3390-A851-C4ECF654047C> /System/Library/PrivateFrameworks/BackgroundTaskManagement.framework/Versions/A/BackgroundTaskManagement
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11535d000 -        0x115385fff  libxslt.1.dylib (16.9) <8C8648B1-F2CA-38EA-A409-D6F19715C6E6> /usr/lib/libxslt.1.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x115395000 -        0x11539bfff  GPUWrangler (5.1.16) <F91AD6D6-8242-348C-8296-AF1DD8DBA2EF> /System/Library/PrivateFrameworks/GPUWrangler.framework/Versions/A/GPUWrangler
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1153a3000 -        0x1153b9fff  com.apple.IOPresentment (1.0 - 37) <2FE66352-4CF9-3F79-944D-053E2AD451D6> /System/Library/PrivateFrameworks/IOPresentment.framework/Versions/A/IOPresentment
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1153d8000 -        0x1153ddfff  libCoreFSCache.dylib (176.11) <AEAEE894-BA4B-334F-90E1-7374DFB41979> /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libCoreFSCache.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1153e6000 -        0x1153ecff3  libIOReport.dylib (54) <FA47D01E-E02C-3178-9C10-DF4E7F6351B0> /usr/lib/libIOReport.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1153f6000 -        0x115751ff0  com.apple.CoreImage (15.0.0 - 940.9) <CA78A35D-E15E-3D98-BDEF-9F3D9039DB78> /System/Library/Frameworks/CoreImage.framework/Versions/A/CoreImage
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11595c000 -        0x1159a0ffb  com.apple.CoreVideo (1.8 - 344.3) <8507ED54-43C3-3E5B-BC74-512FE510BF8D> /System/Library/Frameworks/CoreVideo.framework/Versions/A/CoreVideo
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1159d0000 -        0x1159dfff7  com.apple.opengl (17.10.22 - 17.10.22) <4E9C4B23-6D44-3804-AFF8-84C3B060E8F5> /System/Library/Frameworks/OpenGL.framework/Versions/A/OpenGL
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1159ec000 -        0x115a44fff  com.apple.opencl (3.5 - 3.5) <3F0E363C-9380-3226-A4D1-67E740079AAD> /System/Library/Frameworks/OpenCL.framework/Versions/A/OpenCL
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x115a60000 -        0x115c17ffb  libFosl_dynamic.dylib (100.4) <68038226-8CAA-36B5-B5D6-510F900B318D> /usr/lib/libFosl_dynamic.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x115c46000 -        0x115c84ff0  libFontRegistry.dylib (274.0.4.2) <FBF6EC26-42C0-334E-B67C-871AD50DB0BC> /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/Resources/libFontRegistry.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x115cb9000 -        0x115de8fed  libate.dylib (3.0.1) <36D6D909-6CC1-3E21-ABCD-15DABD2B8563> /usr/lib/libate.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x115dfb000 -        0x115e1fff7  libJPEG.dylib (1976.3.4.4) <4B64A128-E898-336D-9ECF-C90244DA7EEB> /System/Library/Frameworks/ImageIO.framework/Versions/A/Resources/libJPEG.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x115e2a000 -        0x115e72ff3  libTIFF.dylib (1976.3.4.4) <DEAF04DB-89C6-3D08-AD1C-59C422A0344D> /System/Library/Frameworks/ImageIO.framework/Versions/A/Resources/libTIFF.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x115e86000 -        0x115ea0ff7  libPng.dylib (1976.3.4.4) <A74FA015-6DBB-34F9-8552-AB5AF571CE4F> /System/Library/Frameworks/ImageIO.framework/Versions/A/Resources/libPng.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x115eac000 -        0x115eaffff  libGIF.dylib (1976.3.4.4) <200D5E38-08A3-3073-81F3-654C30F28FB9> /System/Library/Frameworks/ImageIO.framework/Versions/A/Resources/libGIF.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x115eb7000 -        0x115f70fff  libJP2.dylib (1976.3.4.4) <C5C790E7-259E-3EFD-A5BA-12D71E308AA8> /System/Library/Frameworks/ImageIO.framework/Versions/A/Resources/libJP2.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x115fa3000 -        0x115fa4fff  libRadiance.dylib (1976.3.4.4) <85FD74FF-E9A6-3837-A7D9-F5641FEE01C1> /System/Library/Frameworks/ImageIO.framework/Versions/A/Resources/libRadiance.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x115fab000 -        0x115fc3fff  libexpat.1.dylib (19.60.2) <1ED53818-578C-3D17-8761-68792CCAD685> /usr/lib/libexpat.1.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x115fcf000 -        0x116017ff7  com.apple.AppleJPEG (1.0 - 1) <C163D80A-6818-3C36-B9A9-7CC8777FE593> /System/Library/PrivateFrameworks/AppleJPEG.framework/Versions/A/AppleJPEG
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x116027000 -        0x11602fff7  libGFXShared.dylib (17.10.22) <7FF5455A-3D5D-33D2-9C41-A51ABE53CE66> /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGFXShared.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x116039000 -        0x116075fff  libGLU.dylib (17.10.22) <2FE69FE7-B60D-3D05-824B-CD4958E2C7B8> /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLU.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x116088000 -        0x116092fff  libGL.dylib (17.10.22) <08450555-3BC8-3457-8F5E-E2BBE895C0C7> /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGL.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1160a9000 -        0x1160ddff7  libGLImage.dylib (17.10.22) <5182EE22-2914-30E0-A87D-C38F345F695B> /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLImage.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1160e8000 -        0x1160eafff  libCVMSPluginSupport.dylib (17.10.22) <65052150-BEFD-38D8-A789-560C2FB1644A> /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libCVMSPluginSupport.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1160f2000 -        0x1160f6fff  libCoreVMClient.dylib (176.11) <29D2B5C2-CBFF-308A-ADD8-A559B760C494> /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libCoreVMClient.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x116100000 -        0x11612ffff  libncurses.5.4.dylib (57) <6BD6F430-C8B3-39D8-87B5-2C16E6578FD5> /usr/lib/libncurses.5.4.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x116144000 -        0x116173fff  com.apple.ATSUI (1.0 - 1) <D8C604E9-D854-3A32-B37B-819197537A63> /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATSUI.framework/Versions/A/ATSUI
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x116189000 -        0x1161e8ff7  libcups.2.dylib (483.6) <F446DEF0-66C0-31AD-88E1-919B05F06C90> /usr/lib/libcups.2.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x116205000 -        0x116217ff3  com.apple.Kerberos (3.0 - 1) <DC673FF3-4DC9-3C23-9718-343AB36B2984> /System/Library/Frameworks/Kerberos.framework/Versions/A/Kerberos
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x116233000 -        0x116283ff7  com.apple.GSS (4.0 - 2.0) <16DE732E-4A48-3C8A-BD61-8AF810F3A48C> /System/Library/Frameworks/GSS.framework/Versions/A/GSS
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1162c7000 -        0x1162dffff  libresolv.9.dylib (67.40.1) <92A522F9-95E2-35EE-A8AD-FC8DEE6B2C1F> /usr/lib/libresolv.9.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1162ec000 -        0x1163aaff4  com.apple.Heimdal (4.0 - 2.0) <C4838DCE-48FB-3828-9FB2-097BA2848C99> /System/Library/PrivateFrameworks/Heimdal.framework/Versions/A/Heimdal
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11644b000 -        0x11644bfff  libHeimdalProxy.dylib (77) <A970C7A8-7CCD-3701-A459-078BD5E8FE4E> /System/Library/Frameworks/Kerberos.framework/Versions/A/Libraries/libHeimdalProxy.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x116455000 -        0x11645eff7  libheimdal-asn1.dylib (564.100.1) <2D639331-43CF-331F-98F4-CDF41990A468> /usr/lib/libheimdal-asn1.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11646c000 -        0x11647cffb  com.apple.CommonAuth (4.0 - 2.0) <E09BBBBE-ECDD-3442-8D4E-27A12F5E2347> /System/Library/PrivateFrameworks/CommonAuth.framework/Versions/A/CommonAuth
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11648c000 -        0x116995ffb  com.apple.audio.CoreAudio (5.0 - 5.0) <CF50C6CC-6753-3D64-A76B-21CE211A98E8> /System/Library/Frameworks/CoreAudio.framework/Versions/A/CoreAudio
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x116d6e000 -        0x116d90fff  com.apple.applesauce (1.0 - 16.25) <A6C6D37B-9AA5-3137-A02E-F61798A908B0> /System/Library/PrivateFrameworks/AppleSauce.framework/Versions/A/AppleSauce
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x116d9d000 -        0x116fddff0  AudioToolboxCore (1104.80) <EE6A2BD9-843C-3CC3-AEFC-6D7855DBB331> /System/Library/PrivateFrameworks/AudioToolboxCore.framework/Versions/A/AudioToolboxCore
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11721a000 -        0x117228ff5  com.apple.audio.caulk (1.0 - 32.3) <DFE1EBB6-9A42-3227-8601-5CFCB1F665CD> /System/Library/PrivateFrameworks/caulk.framework/Versions/A/caulk
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x117253000 -        0x117286ffa  libAudioToolboxUtility.dylib (1104.80) <C34C8FCE-54DE-3884-8074-057B06807D22> /usr/lib/libAudioToolboxUtility.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1172b1000 -        0x117382ff6  com.apple.DiskManagement (13.0 - 1648.100.1) <32121503-F7B3-33E4-BAB0-314D97CDF295> /System/Library/PrivateFrameworks/DiskManagement.framework/Versions/A/DiskManagement
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1173d3000 -        0x118472fe9  com.apple.JavaScriptCore (15609 - 15609.1.20.111.8) <BCA32239-EE89-36EB-9908-32A8E6F7C5F4> /System/Library/Frameworks/JavaScriptCore.framework/Versions/A/JavaScriptCore
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x118880000 -        0x1189feff7  com.apple.OSPersonalization (1.0 - 72) <A561B5AD-A50B-30E0-9D8A-42CDB7176ED4> /System/Library/PrivateFrameworks/OSPersonalization.framework/Versions/A/OSPersonalization
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x118ac2000 -        0x118aceff5  com.apple.xpc.RemoteServiceDiscovery (1.0 - 1738.100.39) <9E3DFC01-AD53-32E6-9FD4-1EE539CB0A35> /System/Library/PrivateFrameworks/RemoteServiceDiscovery.framework/Versions/A/RemoteServiceDiscovery
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x118adf000 -        0x118aebff0  com.apple.multiverse (1.0 - 99.40.1) <D4E54FB1-27F2-312E-B396-EE2358545F8A> /System/Library/PrivateFrameworks/MultiverseSupport.framework/Versions/A/MultiverseSupport
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x118afc000 -        0x118b03ff2  com.apple.BridgeOSSoftwareUpdate (1.0 - 1) <7003CDFA-C37C-3A69-B6E4-AFF1D338456F> /System/Library/PrivateFrameworks/BridgeOSSoftwareUpdate.framework/Versions/A/BridgeOSSoftwareUpdate
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x118b10000 -        0x118d68ff0  com.apple.UIFoundation (1.0 - 661.2) <27837A1C-A833-3F99-B8D8-84A583EEA523> /System/Library/PrivateFrameworks/UIFoundation.framework/Versions/A/UIFoundation
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x118eeb000 -        0x118f14ff1  com.apple.RemoteViewServices (2.0 - 148) <680F9F89-C44B-3AB3-B9EA-155B41B7295A> /System/Library/PrivateFrameworks/RemoteViewServices.framework/Versions/A/RemoteViewServices
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x118f41000 -        0x118f44ffa  com.apple.dt.XCTTargetBootstrap (1.0 - 16091) <B40E4B60-2DB5-30ED-A210-3ED708862162> /System/Library/PrivateFrameworks/XCTTargetBootstrap.framework/Versions/A/XCTTargetBootstrap
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x118f4f000 -        0x1190d6ff2  com.apple.desktopservices (1.14.4 - 1281.4.19) <82777143-A900-33D0-BCFA-2511C89C9EAD> /System/Library/PrivateFrameworks/DesktopServicesPriv.framework/Versions/A/DesktopServicesPriv
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1191cf000 -        0x1191f2fff  CoreSVG (129) <53213F48-F888-3EBE-AE30-E9303E9B712C> /System/Library/PrivateFrameworks/CoreSVG.framework/Versions/A/CoreSVG
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x119211000 -        0x11925cff1  com.apple.IconServices (438.3 - 438.3) <2431AD46-37B8-367F-A1DC-119C781B1453> /System/Library/PrivateFrameworks/IconServices.framework/Versions/A/IconServices
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1192ad000 -        0x1192bfff8  com.apple.framework.DFRFoundation (1.0 - 252.40.1) <852E7EE8-EC39-3CFF-9605-9F971F7BCED5> /System/Library/PrivateFrameworks/DFRFoundation.framework/Versions/A/DFRFoundation
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1192d7000 -        0x1192d7fff  com.apple.audio.units.AudioUnit (1.14 - 1.14) <73D89D5E-05D5-3F64-BE02-2B2ED6AD6C03> /System/Library/Frameworks/AudioUnit.framework/Versions/A/AudioUnit
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1192e4000 -        0x1196dfff8  com.apple.CoreData (120 - 977.3) <24203985-D683-3460-A21E-9E29E94D0B24> /System/Library/Frameworks/CoreData.framework/Versions/A/CoreData
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x119909000 -        0x119983ff0  com.apple.datadetectorscore (8.0 - 659) <F7BA8B28-FD51-34A7-A423-63878638D00E> /System/Library/PrivateFrameworks/DataDetectorsCore.framework/Versions/A/DataDetectorsCore
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1199cf000 -        0x119cc3ff3  com.apple.HIToolbox (2.1.1 - 994.6) <C03A48FC-1A02-320D-9147-F4687A1BBC6F> /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/HIToolbox
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x119e4d000 -        0x119e53fff  com.apple.speech.recognition.framework (6.0.3 - 6.0.3) <E6BE4EC1-5C53-38BB-AAFD-E7BF7A8975BC> /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/SpeechRecognition.framework/Versions/A/SpeechRecognition
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x119e5f000 -        0x119f8bff6  com.apple.coreui (2.1 - 609.4) <55EACF17-86EA-3F6E-A2CF-AF2F08C5F295> /System/Library/PrivateFrameworks/CoreUI.framework/Versions/A/CoreUI
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11a1cb000 -        0x11a1d6ff2  com.apple.PerformanceAnalysis (1.243.2 - 243.2) <FFE831BE-C133-38BE-A6B4-BEEB9FD6BF37> /System/Library/PrivateFrameworks/PerformanceAnalysis.framework/Versions/A/PerformanceAnalysis
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11a1f3000 -        0x11a213fff  libMobileGestalt.dylib (826.100.27) <4B771C86-0CB7-3B06-8F41-5A40DDF66D72> /usr/lib/libMobileGestalt.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11a266000 -        0x11a32cff0  com.apple.TextureIO (3.10.9 - 3.10.9) <362C5815-6A2B-3CA8-B577-C5D4978EF981> /System/Library/PrivateFrameworks/TextureIO.framework/Versions/A/TextureIO
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11a355000 -        0x11a35cffa  com.apple.InternationalSupport (1.0 - 45.2) <296B6979-342E-35B8-A58B-B0797DFBA789> /System/Library/PrivateFrameworks/InternationalSupport.framework/Versions/A/InternationalSupport
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11a369000 -        0x11a36cffb  com.apple.AppleSystemInfo (3.1.5 - 3.1.5) <52444963-7A5E-36C8-BAAA-FFF8A0D14612> /System/Library/PrivateFrameworks/AppleSystemInfo.framework/Versions/A/AppleSystemInfo
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11a377000 -        0x11a418ff5  com.apple.backup.framework (1.11.4 - 1298.4.19) <1F848C06-11E3-3D85-8358-7E37AD2BE9D7> /System/Library/PrivateFrameworks/Backup.framework/Versions/A/Backup
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11a4ab000 -        0x11a4beff1  com.apple.CrashReporterSupport (10.13 - 15016) <8AB4A416-A174-386B-8A96-5F16EAA3FCDE> /System/Library/PrivateFrameworks/CrashReporterSupport.framework/Versions/A/CrashReporterSupport
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11a4d7000 -        0x11a5feff1  Sharing (1526.14) <8D0C1BC4-5133-399B-9EFC-74CAEF4FA389> /System/Library/PrivateFrameworks/Sharing.framework/Versions/A/Sharing
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11a6fc000 -        0x11a720ffb  com.apple.framework.Apple80211 (13.0 - 1602.3) <7D1A08A0-27B0-3F53-BFC4-A2A482B055A0> /System/Library/PrivateFrameworks/Apple80211.framework/Versions/A/Apple80211
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11a730000 -        0x11a84cff3  com.apple.AuthKit (1.0 - 1) <0A3A05D4-0795-35B8-8729-4BF252D52E60> /System/Library/PrivateFrameworks/AuthKit.framework/Versions/A/AuthKit
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11a8db000 -        0x11a9efff3  com.apple.Bluetooth (7.0.4 - 7.0.4f6) <9003721F-8543-3A21-BF11-2A981614F481> /System/Library/Frameworks/IOBluetooth.framework/Versions/A/IOBluetooth
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11aa8b000 -        0x11aaa9fff  com.apple.MobileKeyBag (2.0 - 1.0) <0837C5C4-A860-387C-8F31-9A4627A3132F> /System/Library/PrivateFrameworks/MobileKeyBag.framework/Versions/A/MobileKeyBag
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11aac6000 -        0x11aad1ff7  com.apple.AppleIDAuthSupport (1.0 - 1) <BE6A7C6D-060E-38E9-A010-61975ECE5E43> /System/Library/PrivateFrameworks/AppleIDAuthSupport.framework/Versions/A/AppleIDAuthSupport
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11aae2000 -        0x11ac39ff3  com.apple.Network (1.0 - 1) <D1C8FDDE-C822-3C40-BB26-18F24CFC8AE2> /System/Library/Frameworks/Network.framework/Versions/A/Network
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11acf0000 -        0x11ad0fffd  com.apple.security.KeychainCircle.KeychainCircle (1.0 - 1) <D0F59C6D-F069-3F0D-81C2-CBFC2E6B7101> /System/Library/PrivateFrameworks/KeychainCircle.framework/Versions/A/KeychainCircle
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11ad33000 -        0x11ad4cffb  com.apple.ProtocolBuffer (1 - 274.24.9.16.3) <05BE7640-A9FD-3963-8199-E60DE3C37A7E> /System/Library/PrivateFrameworks/ProtocolBuffer.framework/Versions/A/ProtocolBuffer
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11ad69000 -        0x11ada1fff  com.apple.CoreBluetooth (1.0 - 1) <D2943204-C3A0-3C09-A7A9-BF75822678B4> /System/Library/Frameworks/CoreBluetooth.framework/Versions/A/CoreBluetooth
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11add3000 -        0x11ae9bffe  com.apple.DiskImagesFramework (559.100.2 - 559.100.2) <A8949EC6-1D1A-3DC6-92A5-BC6B57FB6F90> /System/Library/PrivateFrameworks/DiskImages.framework/Versions/A/DiskImages
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11aefc000 -        0x11af65fff  libParallelCompression.dylib (142.100.3) <1C75C683-F774-3FBA-8588-DB706857FDF5> /usr/lib/libParallelCompression.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11af78000 -        0x11afa2ffc  SystemAdministration (820) <12180CB1-BA85-3D65-BEAA-39477203113B> /System/Library/PrivateFrameworks/SystemAdministration.framework/Versions/A/SystemAdministration
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11afd1000 -        0x11afd7ffa  com.apple.BezelServicesFW (336 - 336) <FACB0B01-48EB-393E-BEBE-2E6FB6B8147E> /System/Library/PrivateFrameworks/BezelServices.framework/Versions/A/BezelServices
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11afe2000 -        0x11b08cff0  com.apple.DiscRecording (9.0.3 - 9030.4.5) <F4588360-A78E-361C-B7F5-370D38C57B3C> /System/Library/Frameworks/DiscRecording.framework/Versions/A/DiscRecording
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11b0f7000 -        0x11b102fff  libcsfde.dylib (551) <A03DD9C3-79A2-33B3-B83D-499B91E20CF4> /usr/lib/libcsfde.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11b111000 -        0x11b178ff7  libcurl.4.dylib (118.100.2) <7FFC9973-32BF-3956-A9E6-6AD9DDA7F331> /usr/lib/libcurl.4.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11b194000 -        0x11b1c7fff  com.apple.MediaKit (16 - 923) <DFDC82DF-3E23-394C-8284-3DBC31E7EBDB> /System/Library/PrivateFrameworks/MediaKit.framework/Versions/A/MediaKit
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11b1dd000 -        0x11b237ff6  com.apple.ProtectedCloudStorage (1.0 - 1) <9ACFED11-E9B3-3F24-88AE-294F68189AF1> /System/Library/PrivateFrameworks/ProtectedCloudStorage.framework/Versions/A/ProtectedCloudStorage
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11b281000 -        0x11b309fff  libCoreStorage.dylib (551) <96B61D43-3196-34E2-964A-41A44D2E8FF2> /usr/lib/libCoreStorage.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11b331000 -        0x11b335ff9  com.apple.EFILogin (2.0 - 2) <6230668A-F2C2-3BFC-A965-CAB00821BCE6> /System/Library/PrivateFrameworks/EFILogin.framework/Versions/A/EFILogin
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11b340000 -        0x11b376ff7  com.apple.LDAPFramework (2.4.28 - 194.5) <2920B2CC-7480-37E4-A7C5-BF58D1D6276A> /System/Library/Frameworks/LDAP.framework/Versions/A/LDAP
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11b386000 -        0x11b398ff7  libsasl2.2.dylib (213) <33B1445F-99CC-33EF-8DE8-A8AA9F6D5843> /usr/lib/libsasl2.2.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11b3a3000 -        0x11b3aeff7  com.apple.frameworks.CoreDaemon (1.3 - 1.3) <98645544-C8EB-3E85-AC67-2A047A05E503> /System/Library/PrivateFrameworks/CoreDaemon.framework/Versions/B/CoreDaemon
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11b3bf000 -        0x11b3c3ff7  com.apple.AppleSRP (5.0 - 1) <815E832D-9F21-3BBA-BA03-674473A324E3> /System/Library/PrivateFrameworks/AppleSRP.framework/Versions/A/AppleSRP
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11b3cc000 -        0x11b3d7ff7  com.apple.DirectoryService.Framework (10.15 - 220.40.1) <A2504DEB-2C9D-3F87-90FF-70104421DAF7> /System/Library/Frameworks/DirectoryService.framework/Versions/A/DirectoryService
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11b3e3000 -        0x11b3e8ff7  com.apple.LoginUICore (4.0 - 4.0) <49975B17-B54D-338D-AA55-D2AA825D4FC9> /System/Library/PrivateFrameworks/LoginUIKit.framework/Versions/A/Frameworks/LoginUICore.framework/Versions/A/LoginUICore
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11b3f5000 -        0x11b3f6ff7  libodfde.dylib (26) <19038C81-D1E7-360B-8539-34935F0EB91A> /usr/lib/libodfde.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11b3fe000 -        0x11b414ff5  com.apple.private.SystemPolicy (1.0 - 1) <5ED5561B-BD4D-3E7F-B3E4-857DD8C13F5D> /System/Library/PrivateFrameworks/SystemPolicy.framework/Versions/A/SystemPolicy
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11b431000 -        0x11b46dff7  com.apple.bom (14.0 - 219.2) <4B7C18B2-1E51-376E-9D6A-CE3F58D2AE53> /System/Library/PrivateFrameworks/Bom.framework/Versions/A/Bom
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11b483000 -        0x11b4cdff7  libstdc++.6.dylib (104.1) <3779D567-DCA6-3175-AC9B-0A8293DA5E70> /usr/lib/libstdc++.6.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11b538000 -        0x11b54cff6  com.apple.InstallerDiagnostics (1.0 - 1) <1A903173-A2CC-3055-B2B4-76981474CF79> /System/Library/PrivateFrameworks/InstallerDiagnostics.framework/Versions/A/InstallerDiagnostics
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11b55e000 -        0x11b55ffff  com.apple.TrustEvaluationAgent (2.0 - 33) <F1A2A150-97C1-3050-93EE-6D582E2DF23E> /System/Library/PrivateFrameworks/TrustEvaluationAgent.framework/Versions/A/TrustEvaluationAgent
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11b567000 -        0x11b56cffb  com.apple.GPUInfo (1.2.52 - 1.2.52) <D73C2314-F647-3745-AF61-53470CA3C4A6> /System/Library/PrivateFrameworks/GPUInfo.framework/Versions/A/GPUInfo
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11b576000 -        0x11b58bffa  com.apple.xpc.RemoteXPC (1.0 - 1738.100.39) <5A2222AF-F150-3800-804F-F66D0592B9C9> /System/Library/PrivateFrameworks/RemoteXPC.framework/Versions/A/RemoteXPC
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11b59f000 -        0x11bc9dff5  com.apple.WebKit (15609 - 15609.1.20.111.8) <02E73B70-1559-324B-968A-4B7E41629F1A> /System/Library/Frameworks/WebKit.framework/Versions/A/WebKit
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11c259000 -        0x11c2a6ffd  com.apple.BridgeOSInstall (1.0 - 72) <3AB01388-1B02-3B90-AB59-2B3F89F36AC6> /System/Library/PrivateFrameworks/BridgeOSInstall.framework/Versions/A/BridgeOSInstall
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11c2d3000 -        0x11c2e5ff5  libIASAuthReboot.dylib (1322.2) <958892EB-4057-36A6-BFE3-34F2AA8A2869> /usr/lib/libIASAuthReboot.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11c2f4000 -        0x11c477ff9  com.apple.SystemMigration (2109.1 - 2109.1) <4A2FFE73-53DB-3E69-A701-F6C5970DF938> /System/Library/PrivateFrameworks/SystemMigration.framework/Versions/A/SystemMigration
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11c590000 -        0x11c595ffc  com.apple.ServerInformation (2.0 - 1) <B047D7D6-0C4D-35FB-9C8C-B3505D6C59CA> /System/Library/PrivateFrameworks/ServerInformation.framework/Versions/A/ServerInformation
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11c5a1000 -        0x11c5aeff9  com.apple.installandsetup.SystemMigrationUtils (1.0 - 1) <21869359-DD68-3182-9918-D210A3B25784> /System/Library/PrivateFrameworks/SystemMigrationUtils.framework/Versions/A/SystemMigrationUtils
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11c5c1000 -        0x11c7ccff7  com.apple.WebKitLegacy (15609 - 15609.1.20.111.8) <ACD4362A-7AFB-3360-9FB5-A6DD519158C3> /System/Library/Frameworks/WebKit.framework/Versions/A/Frameworks/WebKitLegacy.framework/Versions/A/WebKitLegacy
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11c94d000 -        0x11ebaeff4  com.apple.WebCore (15609 - 15609.1.20.111.8) <C7BDC427-752C-3B6F-9BED-9084A4E560A4> /System/Library/Frameworks/WebKit.framework/Versions/A/Frameworks/WebCore.framework/Versions/A/WebCore
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11fa92000 -        0x11fa9eff0  com.apple.DeviceIdentity (1.0 - 1) <5476D0B4-DC0A-3B12-8975-CD1242919116> /System/Library/PrivateFrameworks/DeviceIdentity.framework/Versions/A/DeviceIdentity
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11faad000 -        0x11faf1ff7  libsandbox.1.dylib (1217.101.2) <5E362637-203E-3170-B988-1C470A6B0642> /usr/lib/libsandbox.1.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11fb14000 -        0x11fb41ff7  com.apple.securityinterface (10.0 - 55139.100.1) <64A937FE-AF16-3E4E-A988-B3C6916CD7F7> /System/Library/Frameworks/SecurityInterface.framework/Versions/A/SecurityInterface
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11fb7a000 -        0x11fb80ffe  com.apple.URLFormatting (119 - 119.17) <CF6E4DD0-EFBF-338D-B653-809E2A7134CC> /System/Library/PrivateFrameworks/URLFormatting.framework/Versions/A/URLFormatting
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11fb8c000 -        0x11fb8fff3  com.apple.CommonPanels (1.2.6 - 101) <63261921-DD00-312E-AFD1-C099E1984725> /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/CommonPanels.framework/Versions/A/CommonPanels
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11fb99000 -        0x11fb9cff3  com.apple.help (1.3.8 - 71) <F5E9EA64-5D5E-346F-98D0-D04A2F805D8D> /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/Help.framework/Versions/A/Help
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11fba5000 -        0x11fbaaff7  com.apple.ImageCapture (9.0 - 1600.60.4.2) <63FE9A8C-A7C6-3ABD-AA1D-EA1BC6613C39> /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/ImageCapture.framework/Versions/A/ImageCapture
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11fbbd000 -        0x11fbd7ffa  com.apple.openscripting (1.7 - 185.1) <718C485A-4167-3A26-B2CD-6C42B5B36D01> /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/OpenScripting.framework/Versions/A/OpenScripting
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11fbee000 -        0x11fbf0ff7  com.apple.securityhi (9.0 - 55008) <478C57A9-D5A5-3951-B289-DA5323E9044A> /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/SecurityHI.framework/Versions/A/SecurityHI
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11fbf9000 -        0x11ff7cff4  VideoToolbox (2612.58.4.6) <C488A935-B94F-3F80-88E7-D2743FB1E460> /System/Library/Frameworks/VideoToolbox.framework/Versions/A/VideoToolbox
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x11ffdf000 -        0x1200bbff4  com.apple.CoreMedia (1.0 - 2612.58.4.6) <301A075B-022D-3F28-AE2C-7F280CCF1F51> /System/Library/Frameworks/CoreMedia.framework/Versions/A/CoreMedia
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x120158000 -        0x1201a8ff7  com.apple.AppleVAFramework (6.1.2 - 6.1.2) <A46D4D00-6251-302B-9A4A-3A930855BC1F> /System/Library/PrivateFrameworks/AppleVA.framework/Versions/A/AppleVA
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1201b7000 -        0x1201b8ff7  libspindump.dylib (281.3) <16F53AD2-1839-37BF-A2F5-92253FE4AF1A> /usr/lib/libspindump.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1201c1000 -        0x1201c8fff  libMatch.1.dylib (36) <815A4553-4763-369F-A77C-62663A586D60> /usr/lib/libMatch.1.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1201d0000 -        0x1201e0ff2  com.apple.MiniSoftwareUpdate (1.0 - 1) <555E948B-5123-3F61-B5F5-F675DC9B6789> /System/Library/PrivateFrameworks/MiniSoftwareUpdate.framework/Versions/A/MiniSoftwareUpdate
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1201f5000 -        0x12024aff7  com.apple.LoggingSupport (1.0 - 1147.100.8) <5D49B78D-FCA2-3A9D-9D06-2A53DC648292> /System/Library/PrivateFrameworks/LoggingSupport.framework/Versions/A/LoggingSupport
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x12028f000 -        0x120325ff7  com.apple.CoreSymbolication (11.4 - 64535.33.1) <DCA00787-D285-3944-AAFA-CAF78775B8D3> /System/Library/PrivateFrameworks/CoreSymbolication.framework/Versions/A/CoreSymbolication
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x12038c000 -        0x1203c9ff8  com.apple.DebugSymbols (194 - 194) <0406F803-6865-370E-9D32-01EF177B5E7A> /System/Library/PrivateFrameworks/DebugSymbols.framework/Versions/A/DebugSymbols
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1203ec000 -        0x1204ffff8  com.apple.AOSKit (1.07 - 277) <9E3386C6-9B78-350F-9A0C-48CC55E1608D> /System/Library/PrivateFrameworks/AOSKit.framework/Versions/A/AOSKit
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x120536000 -        0x12058effc  com.apple.LoginUIKit (4.0 - 4.0) <01D6AF45-1B3A-348D-8B07-778032062825> /System/Library/PrivateFrameworks/LoginUIKit.framework/Versions/A/LoginUIKit
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1205f7000 -        0x12061fffc  com.apple.CacheDelete (1.0 - 1) <274CA5D9-9BFA-3C99-85B2-51DBF5208A18> /System/Library/PrivateFrameworks/CacheDelete.framework/Versions/A/CacheDelete
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x12063a000 -        0x12065fffb  com.apple.aps.framework (4.0 - 4.0) <0B30938A-3D9A-368D-831A-B249DF07E6E5> /System/Library/PrivateFrameworks/ApplePushService.framework/Versions/A/ApplePushService
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x120686000 -        0x12069cff9  com.apple.icloud.FindMyDevice (1.0 - 1) <05D230F7-E3F4-35E1-89A5-1A80CDFD70FE> /System/Library/PrivateFrameworks/FindMyDevice.framework/Versions/A/FindMyDevice
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1206c1000 -        0x1206d8fff  com.apple.commonutilities (8.0 - 900) <1E6CE910-4B06-3704-A47D-06337A6F0992> /System/Library/PrivateFrameworks/CommonUtilities.framework/Versions/A/CommonUtilities
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1206ee000 -        0x120706ff9  com.apple.icloud.FMCoreLite (1.0 - 1) <A7EBA600-3B0D-322E-8284-C03E70A4348C> /System/Library/PrivateFrameworks/FMCoreLite.framework/Versions/A/FMCoreLite
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x12072c000 -        0x120774ff5  com.apple.framework.corewlankit (13.0 - 1601.2) <5407B296-7F81-3676-B468-AF9047FE8325> /System/Library/PrivateFrameworks/CoreWLANKit.framework/Versions/A/CoreWLANKit
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1207b3000 -        0x12089dff8  com.apple.ViewBridge (464.1 - 464.1) <E1DB0984-8B31-36E4-9854-A3345F67BED3> /System/Library/PrivateFrameworks/ViewBridge.framework/Versions/A/ViewBridge
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x120938000 -        0x12094bffd  com.apple.login (3.0 - 3.0) <8FAC178E-0C61-3E48-844A-CB4446CC7BC6> /System/Library/PrivateFrameworks/login.framework/Versions/A/login
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x120969000 -        0x120988ff5  com.apple.AssetCacheServices (111.1 - 111.1) <D6EF1F92-D1F2-3298-9DE5-C462489A472B> /System/Library/PrivateFrameworks/AssetCacheServices.framework/Versions/A/AssetCacheServices
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1209b5000 -        0x1209e5ff7  com.apple.pluginkit.framework (1.0 - 1) <EDB3D9C8-B4C4-3669-961D-E60D983927B6> /System/Library/PrivateFrameworks/PlugInKit.framework/Versions/A/PlugInKit
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x124a1f000 -        0x124a52fff  com.apple.CoreServicesInternal (446.7 - 446.7) <4C4834E0-EA46-36DE-BA11-16B8826DD754> /System/Library/PrivateFrameworks/CoreServicesInternal.framework/Versions/A/CoreServicesInternal
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x124b66000 -        0x124b69047  libobjc-trampolines.dylib (787.1) <48095A55-7C82-3AE8-95CE-29A21B6450D8> /usr/lib/libobjc-trampolines.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x124b72000 -        0x124ba6fff  libTrueTypeScaler.dylib (277.2.4.2) <3A485687-23E8-3C53-83B0-1AA9625DCD37> /System/Library/PrivateFrameworks/FontServices.framework/libTrueTypeScaler.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x124bd8000 -        0x124be1ff3  com.apple.TextInputMenuCore (1.2.1 - 248) <BF051AB2-990A-3962-86FB-83650A96D900> /System/Library/CoreServices/TextInputMenuCore.bundle/Contents/MacOS/TextInputMenuCore
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x128993000 -        0x1289a7ff1  com.apple.TextInputMenuUI (1.1 - 248) <CBF34020-7A85-3E73-B28B-974EF6D8A7A7> /System/Library/PrivateFrameworks/TextInputMenuUI.framework/Versions/A/TextInputMenuUI
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x1289c8000 -        0x1289dfff7  libCGInterfaces.dylib (524.2) <86A3C54A-786E-34FA-957A-A488CCFAC1D6> /System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vImage.framework/Versions/A/Libraries/libCGInterfaces.dylib
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:        0x128bdc000 -        0x128bf2ff7  com.apple.security.csparser (3.0 - 59306.101.1) <EEE7ED0C-8625-3A9A-A1FB-F118800AB125> /System/Library/Frameworks/Security.framework/PlugIns/csparser.bundle/Contents/MacOS/csparser
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:  
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: External Modification Summary:
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:   Calls made by other processes targeting this process:
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:     task_for_pid: 0
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:     thread_create: 0
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:     thread_set_state: 0
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:   Calls made by this process:
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:     task_for_pid: 0
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:     thread_create: 0
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:     thread_set_state: 0
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:   Calls made by all processes on this machine:
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:     task_for_pid: 0
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:     thread_create: 0
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:     thread_set_state: 0
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:  
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: VM Region Summary:
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: ReadOnly portion of Libraries: Total=311.4M resident=0K(0%) swapped_out_or_unallocated=311.4M(100%)
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: Writable regions: Total=2.1G written=0K(0%) resident=0K(0%) swapped_out=0K(0%) unallocated=2.1G(100%)
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:  
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:                                 VIRTUAL   REGION 
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: REGION TYPE                        SIZE    COUNT (non-coalesced) 
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: ===========                     =======  ======= 
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: CG image                             4K        1 
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: CoreAnimation                        4K        1 
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: CoreGraphics                         8K        1 
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: CoreServices                      1536K        2 
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: Dispatch continuations            24.0M        1 
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: Foundation                           4K        1 
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: JS JIT generated code              1.0G        3 
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: Kernel Alloc Once                    8K        1 
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: MALLOC                           190.2M       60 
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: MALLOC guard page                   48K        8 
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: MALLOC_MEDIUM (reserved)         840.0M        7         reserved VM address space (unallocated)
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: Memory Tag 242                      12K        1 
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: STACK GUARD                       56.0M        8 
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: Stack                             11.6M        8 
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: VM_ALLOCATE                         96K        7 
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: WebKit Malloc                     8340K       13 
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: __DATA                            25.5M      371 
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: __DATA_CONST                        40K        4 
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: __FONT_DATA                          4K        1 
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: __LINKEDIT                        84.4M      338 
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: __TEXT                           227.2M      303 
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: __UNICODE                          564K        1 
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: mapped file                       38.4M        9 
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: shared memory                     64.6M       16 
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: ===========                     =======  ======= 
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: TOTAL                              2.5G     1166 
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]: TOTAL, minus reserved VM space     1.7G     1166 
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:  
+Apr 21 12:43:37 Mac-Pro ReportCrash[659]:  
+Apr 21 12:43:51 Mac-Pro com.apple.appkit.xpc.openAndSavePanelService[662]: Use NVRAM prev-lang:kbd value (30788) as default ASCII input source: Polish Pro
+Apr 21 12:43:53 Mac-Pro opendirectoryd[213]: [session] UID: 0, EUID: 0, GID: 0, EGID: 0, PID: 662, PROC: com.apple.appkit.xpc.openAndSav ODNodeCreateWithNameAndOptions request, SessionID: 00000000-0000-0000-0000-000000000000, Name: /Local/Default, Options: 0x0
+Apr 21 12:43:53 Mac-Pro opendirectoryd[213]: [session] node assigned UUID - 1C8B9452-D3AA-4ECD-97DA-0FA859328B37
+Apr 21 12:43:53 Mac-Pro opendirectoryd[213]: [session] ODNodeCreateWithNameAndOptions completed
+Apr 21 12:43:53 Mac-Pro opendirectoryd[213]: [session] UID: 0, EUID: 0, GID: 0, EGID: 0, PID: 662, PROC: com.apple.appkit.xpc.openAndSav ODQueryCreateWithNode request, NodeID: 1C8B9452-D3AA-4ECD-97DA-0FA859328B37, RecordType(s): dsRecTypeStandard:SharePoints, Attribute: dsAttrTypeStandard:RecordName, MatchType: Any, Equality: CaseExact, Value(s): dsRecordsAll, Requested Attributes: afp_use_parent_privs,dsAttrTypeStandard:GeneratedUID,afp_name,smb_inherit_permissions,dsAttrTypeStandard:AppleMetaNodeLocation,afp_shared,dsAttrTypeStandard:RecordType,sharepoint_version,smb_directorymask,smb_name,directory_path,dsAttrTypeStandard:RecordName,afp_use_parent_owner,ftp_shared,smb_shared,smb_guestaccess,smb_oplocks,afp_guestaccess,dsAttrTypeStandard:AppleMetaRecordName,com_apple_sharing_uuid,ftp_guestaccess,smb_strictlocking,ftp_name,sharepoint_account_uuid,smb_createmask,sharepoint_group_id, Max Results: 2147483647
+Apr 21 12:43:53 Mac-Pro opendirectoryd[213]: [session] queuing request to connection - 923DD4BD-2A61-45D7-B4A9-01CB5918C78A - CFBundle 0x7f816f604080 </System/Library/OpenDirectory/Modules/PlistFile.bundle> (bundle, loaded)
+Apr 21 12:43:53 Mac-Pro opendirectoryd[213]: [session] ODQueryCreateWithNode completed
+Apr 21 12:43:55 Mac-Pro com.apple.appkit.xpc.openAndSavePanelService[662]: Use NVRAM prev-lang:kbd value (30788) as default ASCII input source: Polish Pro
+Apr 21 12:48:29 Mac-Pro powerd[200]: Assertion TimedOut. Type:InternalPreventDisplaySleep Name:'com.apple.powermanagement.delayDisplayOff' Id:0x1000008002 Process:powerd [System: DeclUser IntPrevDisp kDisp]
+Apr 21 12:50:40 Mac-Pro Viewer[661]: Launching /System/Applications/Utilities/Startup Disk.app/Contents/MacOS/Startup Disk
+Apr 21 12:50:40 Mac-Pro Viewer[661]: Waiting for pid
+Apr 21 12:50:40 Mac-Pro Viewer[661]: Obtained pid
+Apr 21 12:50:40 Mac-Pro Viewer[661]: Starting window timer for pid 666
+Apr 21 12:50:41 Mac-Pro Startup Disk[666]: Use NVRAM prev-lang:kbd value (30788) as default ASCII input source: Polish Pro
+Apr 21 12:50:41 Mac-Pro Viewer[661]: Window is being shown, adjusting focus
+Apr 21 12:50:56 Mac-Pro Viewer[661]: Task /System/Applications/Utilities/Startup Disk.app/Contents/MacOS/Startup Disk exited 0
+Apr 21 12:50:56 Mac-Pro Viewer[661]: Task (/System/Applications/Utilities/Startup Disk.app/Contents/MacOS/Startup Disk) terminated with 0
+Apr 21 12:50:56 Mac-Pro Viewer[661]: Adjusting focus to self
